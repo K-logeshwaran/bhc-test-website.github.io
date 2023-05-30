@@ -1,0 +1,28 @@
+.section-7{
+    background-color: rgba(0, 0, 0, 0.676);
+    width:100%;
+    
+   
+}
+
+.college-video-heading h1{
+    padding-bottom:4rem;
+    font-size:5rem;
+    color: aliceblue;
+}
+.college-video-container{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    padding:6rem 0rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.college-video-container video{
+    width: 60%;
+    height:fit-content;
+
+}

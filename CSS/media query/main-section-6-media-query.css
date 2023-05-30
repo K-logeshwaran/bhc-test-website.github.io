@@ -1,0 +1,103 @@
+@media only screen and (max-width:900px){
+
+    
+.grid-container-1,
+.grid-container-2,
+.grid-container-3 {
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    justify-items: center; /* adjusted */
+   
+    gap: 0rem;
+    padding:2rem;
+
+}
+}
+@media only screen and (max-width:600px){
+
+    .in-door-container h1,
+.out-door-container h1,
+.summer-container h1{
+    font-size:3rem;
+   
+ }
+ 
+    
+    .grid-container-1,
+    .grid-container-2,
+    .grid-container-3 {
+        width:80%;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        align-items: center;
+        justify-items: center; /* adjusted */
+       
+        gap: 0rem;
+        padding:2rem;
+    
+    }
+    }
+
+
+    @media only screen and (max-width:550px){
+
+        .in-door-container h1,
+    .out-door-container h1,
+    .summer-container h1{
+        font-size:2.5rem;
+        
+       
+     }
+     
+     
+        
+        .grid-container-1,
+        .grid-container-2,
+        .grid-container-3 {
+            width:90%;
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+            align-items: center;
+            justify-items: center; /* adjusted */
+           
+            gap: 0rem;
+            padding:2rem;
+        
+        }
+        }
+
+    @media only screen and (max-width:310px){
+
+        .in-door-container h1,
+    .out-door-container h1,
+    .summer-container h1{
+        font-size:2.2rem;
+      
+       
+     }
+     .in-door-container ,
+     .out-door-container,
+     .summer-container{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     }
+        
+        .grid-container-1,
+        .grid-container-2,
+        .grid-container-3 {
+            width:80%;
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+            align-items: center;
+            justify-items: center; /* adjusted */
+           
+            gap: 0rem;
+            padding:2rem;
+        
+        }
+        }
+      

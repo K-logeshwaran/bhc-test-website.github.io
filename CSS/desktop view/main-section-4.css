@@ -1,0 +1,184 @@
+.section-4 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #4E4E4E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-to-right-football{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+.football-mid {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    white-space: nowrap;
+    color: #0f0202;
+    align-self: flex-end;
+}
+
+.graphics-container-2 {
+    position: relative;
+
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #181818;
+
+}
+.side-number-football{
+    width: fit-content;
+}
+
+.top-number-football{
+    align-self: center;
+}
+
+
+.heading-football{
+    text-align: center;
+    color: rgb(227, 213, 7);
+    padding: 2.5rem;
+    font-size: 5rem;
+}
+
+.side-number-football h1,
+.top-number-football h1 {
+    
+    font-size:6rem;
+    font-family:monospace;
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+}
+
+.side-number-football h3,
+.top-number-football h3{
+  
+    font-size: 2rem;
+    color: rgb(99, 99, 99);
+
+}
+#football-number-4{
+    margin-top:10rem;
+}
+.ball-conatoner{
+    position: absolute;
+    top:50%;
+left:50%;
+}
+
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+@property --num2 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+@property --num3 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+@property --num4 {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+
+.footbal-num-anim-1 {
+    transition: --num 2s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+    font-size:1rem;
+}
+
+.footbal-num-anim-1::before {
+    content: counter(num);
+}
+
+.footbal-num-anim-1{
+    --num: 256;
+    
+}
+
+
+
+.footbal-num-anim-2 {
+    transition: --num2 2s;
+    counter-set: num2 var(--num2);
+    font: 800 40px system-ui;
+}
+
+.footbal-num-anim-2::before {
+    content: counter(num2);
+}
+
+.footbal-num-anim-2{
+    --num2: 156;
+    
+}
+
+
+
+
+.footbal-num-anim-3 {
+    transition: --num3 2s;
+    counter-set: num3 var(--num3);
+    font: 800 40px system-ui;
+}
+
+.footbal-num-anim-3::before {
+    content: counter(num3);
+}
+
+.footbal-num-anim-3{
+    --num3: 10;
+    
+}
+
+
+
+
+
+.ball-conatoner img  {
+    animation: ball-spin 3s infinite linear ;
+}
+
+@keyframes ball-spin {
+   
+    to {
+       
+        transform: rotate(360deg);
+}
+}
+
+.football-player-image{
+    width:fit-content;
+    height:50rem;
+    position: absolute;
+    transform: translate(35%,10%);
+ z-index:10;
+
+}
+
+
+#football-number-4{
+    z-index: 12;
+}

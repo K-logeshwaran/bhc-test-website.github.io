@@ -1,0 +1,354 @@
+.section-2 {
+    background-color: rgba(0, 0, 0, 0.575);
+    color: aliceblue;
+}
+.since-container {
+    display: flex;
+    flex-direction: column;
+}
+.content-container-1,
+.content-container-3,
+.content-container-4,
+.content-container-5,
+.content-container-6,
+.content-container-7,
+.content-container-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.content-1,
+.content-2 {
+    display: flex;
+    flex-basis: 45%;
+    text-align: left;
+    flex-direction: column;
+    padding: 2rem;
+}
+.since-container .content-container-2 p,
+.since-container .content-container-3 p,
+.since-container .content-container-4 p,
+.since-container .content-container-5 p,
+.since-container .content-container-6 p,
+.since-container .content-container-7 p,
+.since-container .content-container-8 p {
+    line-height: 3rem;
+    letter-spacing: 0.2;
+    font-size: 1.8rem;
+    font-family: "Lato";
+    word-spacing: 0.1rem;
+}
+
+.since-container .content-container-3 h2,
+.since-container .content-container-4 h2,
+.since-container .content-container-5 h2,
+.since-container .content-container-6 h2,
+.since-container .content-container-7 h2,
+.since-container .content-container-8 h2 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-family: "Lato";
+}
+.content-container-2 .content-1 {
+    flex-basis: 70%;
+}
+.content-container-2 .content-2 {
+    flex-basis: 30%;
+}
+.content-container-2 .content-2 img {
+    width: 20rem;
+}
+/* .content-container-2 .content-2 img{
+    width: 100%;
+    align-self: center;
+    transform: rotateY(180deg);
+    
+
+} */
+
+.content-container-2 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 4rem 0rem 1rem 10rem;
+}
+.content-container-1 h1 {
+    font-size: 3.5rem;
+    font-family: serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 5rem 2rem 2rem 2rem;
+}
+.bg {
+    background-image: url(../../images/section-background-images/why-us.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-color: #0000006e;
+    background-blend-mode: multiply;
+}
+.since-container .content-container-2 h2 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-family: "Lato";
+}
+
+#ss {
+    font-size: 5rem;
+}
+.visit-heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem 0;
+    color: #fff;
+    font-family: serif;
+    padding-bottom: 2rem;
+}
+
+.visit-container {
+    width: 100%;
+    color: black;
+    padding-top: 2rem;
+    position: relative;
+}
+.visit-container nav ul {
+    box-shadow: 2px 2px 30px 2px rgba(245, 245, 245, 0.509);
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1.8rem;
+    color: black;
+    margin-bottom: 3rem;
+}
+.visit-container nav ul a {
+    text-decoration: none;
+    color: rgb(12, 18, 91);
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: "Lato";
+    transition-duration: 0.6s;
+}
+.visit-container nav ul a:hover {
+    color: rgb(171, 10, 10);
+    font-size: 4rem;
+    font-family: "Lato";
+}
+.visit-container nav ul a li {
+    font-size: 1.3rem;
+    transition-duration: 0.6s;
+    font-family: "Lato";
+}
+.visit-container nav ul a li:hover {
+    font-size: 1.5rem;
+    font-family: "Lato";
+}
+.content-container-2 .content-1 h1 {
+    padding-top: 1rem;
+}
+
+.content-container-2 .content-1 a {
+    display: inline;
+    padding: 0.3rem 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border: 0.1rem solid rgba(206, 25, 25, 0.863);
+    transition-duration: 0.3s;
+}
+.conter {
+    display: none;
+}
+#se {
+    display: inline;
+    font-size: 1.6rem;
+    transition-duration: 0.3s;
+}
+.content-container-2 .content-1 a:hover {
+    background-color: #fff;
+    color: rgba(206, 25, 25, 0.863);
+    border: 0.1rem solid rgba(255, 255, 255, 0.863);
+}
+
+.conter {
+    position: absolute;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    display: none;
+}
+
+.visible-read-more {
+    position: relative;
+    display: flex;
+    opacity: 1;
+    animation: w 2s;
+    display: flex;
+}
+@keyframes w {
+    0% {
+        margin-bottom: -100%;
+        opacity: 0.1;
+    }
+    100% {
+        margin-bottom: 0%;
+        opacity: 1;
+    }
+}
+
+#logo-testi {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#logo-testi img {
+    animation: glow-testi 3s infinite;
+}
+@keyframes glow-testi {
+    0% {
+        -webkit-filter: drop-shadow(5px 5px 5px #ffffff58);
+        filter: drop-shadow(5px 5px 5px #ffffff71);
+    }
+    50% {
+        -webkit-filter: drop-shadow(5px 5px 5px #00000058);
+        filter: drop-shadow(5px 5px 5px #00000071);
+    }
+    100% {
+        -webkit-filter: drop-shadow(5px 5px 5px #ffffff58);
+        filter: drop-shadow(5px 5px 5px #ffffff71);
+    }
+}
+
+.sports-bullet-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.795);
+    position: relative;
+    animation: zoom-sb 1s ease-in-out;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes zoom-sb {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.sports-bullet {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+}
+.sports-bullet-year {
+    flex-basis: 20%;
+
+    background-color: gray;
+}
+.sports-bullet-year h1 {
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 4rem;
+
+    text-align: center;
+    padding: 4rem 0rem;
+}
+.sports-bullet-year ul {
+    list-style-type: none;
+}
+.sports-bullet-year ul li {
+    text-align: center;
+    padding: 2rem;
+    transition-duration: 1s;
+}
+.sports-bullet-year ul li:nth-child(even) {
+    background-color: gray;
+    cursor: pointer;
+}
+.sports-bullet-year ul li:nth-child(odd) {
+    background-color: rgb(25, 25, 25);
+    cursor: pointer;
+}
+
+.sports-bullet-year ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    transition-duration: 1s;
+}
+
+.sports-bullet-year ul li:nth-child(odd):hover a {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.sports-bullet-year ul li:nth-child(odd):hover {
+    background-color: white;
+}
+.sports-bullet-year ul li:nth-child(even):hover a {
+    color: gray;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.sports-bullet-year ul li:nth-child(even):hover {
+    background-color: white;
+}
+.sports-bullet-pdf {
+    flex-basis: 80%;
+
+    border-left: 0.5rem solid rgba(0, 0, 0, 0.548);
+    background-color: rgba(247, 244, 244, 0.845);
+}
+#close-sports-bullet {
+    color: #000000;
+    font-size: 5rem;
+    position: absolute;
+    display: inline-flex;
+    width: 5%;
+    height: fit-content;
+
+    cursor: pointer;
+    z-index: 10;
+    transition-duration: 1s;
+}
+#close-sports-bullet:hover {
+    color: #fa1f1f;
+}
+#close-sports-bullet-2 {
+    display: flex;
+    color: #030303;
+    font-size: 6rem;
+    cursor: pointer;
+    z-index: 10;
+    padding: 1rem;
+
+    transition-duration: 1s;
+}
+#close-sports-bullet-2 {
+    display: none;
+}
+
+.sports-bullet-container-show {
+    display: none;
+}

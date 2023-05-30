@@ -1,0 +1,124 @@
+
+
+
+@media only screen and (max-width:870px){
+    
+    .football-player-container img{
+        width:40rem;
+    }
+    .number-1 h1,
+    .number-2 h1,
+    .number-3 h1,
+    .number-4 h1{
+        font-size:4rem;
+        padding-right:3rem;
+    }
+    .number-1,
+.number-2,
+.number-3,
+.number-4{
+    padding:2.5rem 0rem;
+}
+.number-1 h3,
+.number-2 h3,
+.number-3 h3,
+.number-4 h3{
+    font-size: 1.5rem;
+}
+}
+@media only screen and (max-width:780px){
+    .graphics-container-2 {
+        position: relative;
+        width: 100%;
+        min-height:70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+        position: relative;
+        object-fit: cover;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    
+    .football-player-container img{
+        width:38rem;
+    }
+    .number-1 h1,
+    .number-2 h1,
+    .number-3 h1,
+    .number-4 h1{
+        font-size:3rem;
+        padding-right:1.5rem;
+    }
+
+    .number-1,
+    .number-2,
+    .number-3,
+    .number-4{
+        padding:2rem 0rem;
+       
+    }
+    .number-1 h3,
+.number-2 h3,
+.number-3 h3,
+.number-4 h3{
+    font-size: 1.2rem;
+}
+}
+
+
+@media only screen and (max-width:520px){
+   
+    .football-player-container img{
+        width:25rem;
+        padding-right:1.5rem;
+    }
+    .number-1 h1,
+    .number-2 h1,
+    .number-3 h1,
+    .number-4 h1{
+        font-size:2rem;
+    }
+
+    .number-1,
+    .number-2,
+    .number-3,
+    .number-4{
+        padding:1rem 0rem;
+    }
+    .number-1 h3,
+.number-2 h3,
+.number-3 h3,
+.number-4 h3{
+    font-size: 1rem;
+}
+}
+@media only screen and (max-width:340px){
+    .football-player-container img{
+        width:20rem;
+        padding-right:1rem;
+    }
+    .number-1 h1,
+    .number-2 h1,
+    .number-3 h1,
+    .number-4 h1{
+        font-size:2rem;
+    }
+
+    .number-1,
+    .number-2,
+    .number-3,
+    .number-4{
+        padding:1rem 0rem;
+    }
+    .number-1 h3,
+.number-2 h3,
+.number-3 h3,
+.number-4 h3{
+    font-size: 1rem;
+}
+}

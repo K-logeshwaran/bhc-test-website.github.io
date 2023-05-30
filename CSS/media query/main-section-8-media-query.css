@@ -1,0 +1,22 @@
+@media only screen and (max-width:900px){
+    .achievement-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    .achievement-card{
+        width:80%;
+        margin-bottom:10rem;
+    }
+    .achievement-card img{
+        width:100%;
+        
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        
+    }
+}

@@ -1,0 +1,118 @@
+.section-6{
+  width: 100%;
+  height:fit-content;
+}
+
+.grid-container-1,
+.grid-container-2,
+.grid-container-3 {
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items: center;
+    justify-items: center; /* adjusted */
+   
+    gap: 0rem;
+    padding:2rem;
+
+}
+
+.in-door-container h1{
+padding-top:5rem;
+}
+
+.in-door-container h1,
+.out-door-container h1,
+.summer-container h1{
+    font-size:4rem;
+    width:fit-content;
+    overflow-x: hidden;
+    overflow-y: hidden;
+ }
+ 
+ .in-door-container,
+.out-door-container,
+.summer-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-bottom: 2rem;
+ }
+ 
+
+
+
+.in-door-title,
+.out-door-title,
+.summer-title{
+   
+   width:fit-content;
+    text-align: center;
+    padding: 1rem 0rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+  
+}
+.sports-card{
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.652);
+    border-radius: 2rem;
+    margin-top:4rem;
+   
+}
+
+.sports-card img {
+    width: 85%;
+    border-radius:2rem;
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+    
+}
+
+.sports-card h2 {
+    font-size:2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+
+}
+
+.in-door-container .grid-container-1 .grid-item span{
+font-size:1.8rem;
+position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%, -10%);
+color: rgb(255, 255, 255);
+transition-duration: 0.3s;
+opacity:0;
+padding:1rem;
+}
+.in-door-container .grid-container-1 .grid-item span:hover{
+    opacity:1;
+    border:3px double whitesmoke;
+    
+}
+
+#over{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height:100%;
+    border-radius: 2rem;
+    background-color: rgba(204, 204, 204, 0.174);
+   display: none;
+    transition-duration:2s;
+}
+#hhh:hover #over{
+  display: block;
+    opacity: 1;
+}

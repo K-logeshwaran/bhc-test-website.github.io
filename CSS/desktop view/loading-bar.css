@@ -1,0 +1,60 @@
+.loading-bar-container{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.995);
+    z-index: 100000;
+}
+
+
+
+.loading-bar-counter{
+    position: relative;
+    color: #f2f2f2;
+    font-family:serif;
+    font-size: 5rem;
+    font-weight: 500;
+    z-index: 10;
+    animation:blink3 0.2 infinite;
+}
+
+
+
+.loading-bar-counter::after{
+    font-family:serif;
+    content: "%";
+    font-size: 5rem;            
+}
+
+.loading-bar-counter-hider {
+    opacity: 0;
+    transition: 1s;
+    pointer-events: none;
+}
+
+.loading-bar-container-hider{
+   transform: translateY(-100vh);
+   transition: ease-in-out 1s;
+   transition-delay: 0.5s;
+}
+#loading-bar-clg-logo{
+    width:20rem;
+    height:20rem;
+    display:block;
+    
+}
+
+@keyframes blink3 {
+   
+    from{
+        color: blue;
+    }to{
+       color: brown;
+    }
+ 
+}

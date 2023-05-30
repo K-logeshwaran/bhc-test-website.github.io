@@ -1,0 +1,11 @@
+fieldset{
+    width:60%;
+    margin: auto;
+}
+legend {
+    text-align: center;
+}
+legend h1{
+ font-size: 4rem;
+
+}

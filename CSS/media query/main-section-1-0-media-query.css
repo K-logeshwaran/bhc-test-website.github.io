@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 1150px){
+    .colour-staff{
+        width:12rem;
+
+      }
+
+      .staffs-container{
+       
+         grid-template-columns:repeat(2,2fr);
+         
+            
+          }
+
+}
+
+@media only screen and (max-width: 770px){
+
+      .colour-staff{
+        width:14rem;
+
+      }
+
+      .staffs-container{
+       
+         grid-template-columns:repeat(1,2fr);
+         
+            
+          }
+}
+
+@media only screen and (max-width: 380px){
+    
+    .colour-staff{
+        width:12rem;
+
+      }
+
+    .staff-items{
+        flex-direction: column;
+        }
+        .staff-details-2{
+            padding-top:2rem;
+        }
+}

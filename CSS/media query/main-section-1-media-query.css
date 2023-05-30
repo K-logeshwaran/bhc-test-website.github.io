@@ -1,0 +1,84 @@
+@media only screen and (max-width: 990px){
+
+    .faculty-details-container{
+        flex-direction: column;
+        
+    }
+}
+@media only screen and (max-width:575px) {
+    
+    .department-name-container h1{
+        font-size:2rem;
+        padding:0rem 1rem;
+    }
+    .faculty-details-container{
+        flex-direction: column;
+
+        text-align: center;
+        
+        
+    }
+    .faculty-details-container h2{
+        font-size: 1.2rem;
+    }
+    .faculty-detail-1,
+    .faculty-detail-2{
+        padding-top:0.5rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .faculty-1,.faculty-2{
+        flex-direction: column;
+    }
+    .social-container{
+        padding:1rem 0rem ;
+        padding-left:0rem;
+        display:grid;
+        grid-template-columns: repeat(4, 2rem);
+        column-gap:2rem;
+
+        
+      }
+      .social{
+  
+       
+        width:3rem;
+        height: 3rem;
+        font-size: 1.5em;
+        color: rgb(253, 253, 253);
+        border-radius: 50%;
+        display: grid;
+        place-items:center;
+      }
+}
+
+/* @media only screen and (min-width:290px) and (max-width: 365px){
+
+    .faculty-details-container{
+        flex-direction: column;
+        
+    }
+    .social-container{
+        padding:1rem 0rem ;
+        padding-left:1rem;
+        display:grid;
+        grid-template-columns: repeat(4, 2rem);
+        column-gap:1.2rem;
+        
+      }
+      .social{
+  
+       
+        width:2.5rem;
+        height: 2.5rem;
+        font-size: 1.5em;
+        color: white;
+        border-radius: 50%;
+        display: grid;
+        place-items:center;
+      }
+} */
+
+

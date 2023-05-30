@@ -1,0 +1,852 @@
+
+
+@media only screen and (max-width: 1300px){
+    
+    .nav-bar-image-container .college-logo-2{
+        display:inline-flex;
+        
+    }
+    .nav-bar-image-container .college-logo-1{
+        display: none;
+    }
+    .nav-bar-ul{
+        display:block;
+    }
+    .nav-menu-bar-icon-1{
+        display: inline-flex;
+    }
+    .menu-bar-icon-container{
+        display: block;
+    }
+    .line-bar-1,.line-bar-2,.line-bar-3{
+       
+        width:2.8rem;
+        height:0.2rem;
+        transition: 0.5s;
+        
+    }
+    .cross-bar-1,.cross-bar-2,.cross-bar-3{
+       
+        width:2.8rem;
+        height:0.2rem;
+        transition: 0.5s;
+        
+    }
+
+
+    .cross-bar-1 {
+        background-color: red;
+        transform: translate(0, 2px) rotate(-45deg);
+    }
+
+    .cross-bar-2 {
+        opacity: 0;
+    }
+
+    .cross-bar-3 {
+        background-color: red;
+        transform: translate(0, -2px) rotate(45deg);
+    }
+    .nav-bar-ul{
+        width:26rem;
+        padding-top:2rem;
+        position: absolute;
+        right:-100%;
+        top:0%;
+        display:block;
+        transition-duration:0.8s;
+        height:100vh;
+        overflow: hidden;
+       
+    }
+    .nav-bar-sub-ul{
+       
+        width:100%;
+        top:0.3rem;
+        position:relative;
+        background-color: rgb(0, 0, 0);
+        transition-duration:6s;
+    }
+    
+    .nav-bar-li{
+       
+        padding:0px;
+        display: block;
+        padding-top:1.5rem;
+        padding-bottom:2rem;
+        padding-left:0rem;
+        border-bottom: solid 0.1px rgba(128, 128, 128, 0.811);
+        border-top: solid 0.1px rgba(128, 128, 128, 0.836);
+        
+    }
+    
+    .nav-bar-li a{
+        padding-left: 2rem;
+    }
+    
+    .header-container ul 
+.nav-bar-li 
+.nav-bar-sub-ul li {
+    background-color: rgba(0, 0, 0, 0);
+    padding:0rem 0rem;
+   
+    padding-top:1rem;
+    padding-bottom:1rem;
+    }
+    .nav-menu-bar-button{
+        
+        display: block;
+        padding: 2rem;
+        padding-top: 5rem;
+    }
+    .nav-menu-bar-button .center button{
+        width: max-content;
+        display: block;
+        border: 0rem solid white;
+        padding: 1.5rem 5rem;
+        transition-duration:0.6s;
+        border-radius:0.2rem;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -100%);
+        
+      }
+      .nav-menu-bar-button .center button:hover{
+        background-color: red;
+        color: white;
+    }
+    .header-container ul 
+    .nav-bar-li 
+    .nav-bar-sub-ul {
+        width: 100%;
+        padding:0rem 0rem;
+       background-color: rgba(0, 0, 0, 0);
+       border-bottom:none;
+        
+        }
+    
+    .show-nav-menu-bar {
+        
+        background-color: rgba(0, 0, 0, 0.670);
+        width:26rem;
+        height:100vh;
+        overflow: scroll;
+        position: absolute;
+        right: 0rem;
+        top:0px;
+        overflow-x:hidden;
+        flex-direction: column;
+        animation: de 6s in;
+    }
+  
+    
+.hide-reg-btn button{
+    position: relative;
+    left:150%;
+    animation: hide 0.6s;
+    
+     
+}
+.hide-line-menu{
+    position: relative;
+    left:150%;
+    animation: hide 2s;
+}
+
+@keyframes hide {
+    0%{
+        position: relative;
+        left:0%;
+    }
+    100%{
+        position: relative;
+        left:150%;
+    }
+}
+
+.nav-menu-bar-icon-2{
+
+padding:2rem;
+padding-right:3rem;
+display:flex;
+justify-content: end;
+}
+}
+
+
+@media screen and (max-width: 720px){
+    .sports-logo-container{
+        padding-bottom:2rem;
+    }
+    .sports-logo-container img{
+        width:16rem;
+    }
+    .welcome-text-container{
+        left:4rem;
+        bottom:5rem;
+    }
+    .welcome-to-text p{
+      font-size:2rem;
+    }
+    .waviy span{
+        font-size:8rem;
+    }
+    .college-text{
+        bottom:6.3rem;
+        left:24rem;
+        border-left:0.3rem solid rgb(198, 180, 22);
+    }
+    .college-text h1 span{
+        font-family: "Montserrat Medium";
+        font-size:1.8rem;
+    }
+    .college-text h1{
+        font-family: "Montserrat Medium";
+        max-width: 55ch;
+        
+      }
+}
+
+@media screen and (max-width: 540px){
+    .sports-logo-container{
+        padding-bottom:2rem;
+    }
+    .sports-logo-container img{
+        width:16rem;
+    }
+    .welcome-text-container{
+        left:4rem;
+        bottom:15rem;
+    }
+    .welcome-to-text p{
+      font-size:2rem;
+    }
+    .waviy span{
+        font-size:8rem;
+    }
+    .college-text{
+        bottom:6.3rem;
+        left:4rem;
+        border-left:0.3rem solid rgb(198, 180, 22);
+    }
+    .college-text h1 span{
+        font-family: "Montserrat Medium";
+        font-size:1.9rem;
+        letter-spacing:0.5;
+    }
+    .college-text h1{
+        font-family: "Montserrat Medium";
+        max-width: 40ch;
+        
+      }
+      @keyframes glow{
+
+        0%{
+            
+            color: rgb(247, 202, 0);
+            letter-spacing:0rem;
+           
+        }
+        60%{
+            
+            color: rgb(255, 255, 255);
+            letter-spacing:0.8rem;
+            
+        }
+        80%{
+            
+            color: rgb(247, 202, 0);
+            letter-spacing:0.5rem;
+            
+        }
+        100%{
+            
+            color: rgb(255, 255, 255);
+            letter-spacing:0.2rem;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 420px){
+    .sports-logo-container{
+        padding-bottom:1rem;
+    }
+    .sports-logo-container img{
+        width:14rem;
+    }
+    .welcome-text-container{
+        left:3rem;
+        bottom:20rem;
+    }
+    .welcome-to-text p{
+      font-size:1.2rem;
+    }
+    .waviy span{
+        font-size:7rem;
+    }
+    .college-text{
+        bottom:6.3rem;
+        left:3rem;
+        padding-left:1rem;
+        border-left:none;
+        border-left:0.3rem solid rgb(198, 180, 22);
+    }
+    .college-text h1 span{
+        font-family: "Montserrat Medium";
+        font-size:1.8rem;
+    }
+    .college-text h1{
+        font-family: "Montserrat Medium";
+        max-width: 50ch;
+        
+      }
+     
+      @keyframes glow{
+
+        0%{
+            
+            color: rgb(247, 202, 0);
+            letter-spacing:0rem;
+           
+        }
+        60%{
+            
+            color: rgb(255, 255, 255);
+            letter-spacing:0.8rem;
+            
+        }
+        80%{
+            
+            color: rgb(247, 202, 0);
+            letter-spacing:0.5rem;
+            
+        }
+        100%{
+            
+            color: rgb(255, 255, 255);
+            letter-spacing:0.2rem;
+            
+        }
+    }
+
+
+    .side-header-image-1,.side-header-image-2,.side-header-image-3{
+        margin-top:2rem;
+        display: flex;
+        width: 10rem;
+        height:7rem;
+        background-color: rgba(0, 0, 0, 0.508);;
+        background-size: cover;
+        text-align: center;
+        background-blend-mode: multiply;
+        animation: side2 0.8s;
+        
+    }
+    .side-header-image-container a p,
+.side-header-image-container a p,
+.side-header-image-container a p{
+    font-size:0.9rem;
+}
+
+.side-header-image-1:hover p,
+.side-header-image-2:hover p,
+.side-header-image-3:hover p{
+    font-size:0.8rem;
+    color: rgb(228, 211, 15);
+   
+}
+
+
+@keyframes move {
+    0% {
+        
+		text-shadow:0px 0px 0px rgb(0, 0, 0);
+		
+	}
+	50% {
+        font-size:0.6rem;
+        text-shadow: 2px 2px 20px rgba(252, 252, 252, 0.674);
+		
+	}
+	100% {
+		text-shadow:0px 0px 0px rgb(0, 0, 0);
+		
+	}
+}
+}
+
+
+
+@media only screen and (max-width: 760px){
+    .nav-bar-button-container{
+        display: none;
+
+    }
+    .nav-bar-image .college-logo2{
+        display:inline-flex;
+        width:25rem;
+    }
+    .nav-bar-image .college-logo{
+        display: none;
+    }
+    .nav-bar-ul{
+        display: none;
+    }
+    .nav-menu-bar-icon-1{
+        display: inline-flex;
+    }
+    .menu-bar-icon-container{
+        display: block;
+    }
+    .line-bar-1,.line-bar-2,.line-bar-3{
+       
+        width:2.8rem;
+        height:0.2rem;
+        transition: 0.5s;
+        
+    }
+    .cross-bar-1,.cross-bar-2,.cross-bar-3{
+       
+        width:2.8rem;
+        height:0.2rem;
+        transition: 0.5s;
+        
+    }
+
+
+    .cross-bar-1 {
+        background-color: red;
+        transform: translate(0, 2px) rotate(-45deg);
+    }
+
+    .cross-bar-2 {
+        opacity: 0;
+    }
+
+    .cross-bar-3{
+        background-color: red;
+        transform: translate(0, -2px) rotate(45deg);
+    }
+    .nav-bar-ul{
+        padding-top:2rem;
+        display:none;
+    }
+        .nav-bar-ul{
+            width:26rem;
+            padding-top:2rem;
+            position: absolute;
+            right:-100%;
+            top:-1%;
+            display:block;
+            transition-duration:0.8s;
+            height:100vh;
+           
+        }
+    
+    .nav-bar-li{
+       
+        padding:0px;
+        display: block;
+        padding-top:1.5rem;
+        padding-bottom:2rem;
+        padding-left:0rem;
+        border-bottom: solid 0.1px rgba(128, 128, 128, 0.811);
+        border-top: solid 0.1px rgba(128, 128, 128, 0.836);
+        
+    }
+    .nav-bar-li a{
+        padding-left: 2rem;
+    }
+    
+    .header-container ul 
+.nav-bar-li 
+.nav-bar-sub-ul li {
+    background-color: rgba(0, 0, 0, 0);
+    padding:0rem 0rem;
+   
+    padding-top:1rem;
+    padding-bottom:1rem;
+    }
+    .nav-menu-bar-button{
+
+        display: block;
+        padding: 2rem;
+        padding-top: 5rem;
+    }
+    .nav-menu-bar-button .center button{
+        width: max-content;
+        display: block;
+        border: 0rem solid red;
+        padding: 1.5rem 5rem;
+        transition-duration:0.6s;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -100%);
+      }
+      .nav-menu-bar-button .center button:hover{
+        background-color: red;
+        color: white;
+    }
+    .header-container ul 
+    .nav-bar-li 
+    .nav-bar-sub-ul {
+        width: 100%;
+        padding:0rem 0rem;
+       background-color: rgba(0, 0, 0, 0);
+       border-bottom:none;
+        
+        }
+    
+    .show-nav-menu-bar {
+        background-color: rgba(0, 0, 0, 0.670);
+        width:26rem;
+        height:100vh;
+        overflow: scroll;
+        position: absolute;
+        right: 0.1rem;
+        top:0px;
+        overflow-x:hidden;
+        display:block;
+        
+    }
+
+
+.nav-menu-bar-icon-2{
+padding:2rem;
+padding-right:3rem;
+display:flex;
+justify-content: end;
+
+}
+.wlc-animation{
+   
+    left:4rem;
+    bottom:16rem;
+
+}
+.wlc-animation h1{
+   font-size:7rem;
+
+}
+.wlc-animation p{
+    font-size:2rem;
+ 
+ }
+
+
+}
+
+    @media only screen and (max-width: 330px){
+        .nav-bar-button-container{
+            display: none;
+        }
+        .line-bar-1,.line-bar-2,.line-bar-3{
+       
+            width:2.5rem;
+            height:0.2rem;
+            
+        }
+        .nav-bar-image-container .college-logo-2{
+            display:inline-flex;
+            width:18rem;
+        }
+        .nav-bar-image-container .college-logo-1{
+            display: none;
+        }
+        .nav-bar-ul{
+            display: none;
+        }
+        .nav-menu-bar-icon-2{
+            display: inline-flex;
+        }
+        .menu-bar-icon-container{
+            display: block;
+        }
+        .line-bar-1,.line-bar-2,.line-bar-3{
+       
+            width:2.8rem;
+            height:0.2rem;
+            transition: 0.5s;
+            
+        }
+        .cross-bar-1,.cross-bar-2,.cross-bar-3{
+           
+            width:2.8rem;
+            height:0.2rem;
+            transition: 0.5s;
+            
+            
+        }
+    
+    
+        .cross-bar-1 {
+            background-color: red;
+            transform: translate(0, 2px) rotate(-45deg);
+        }
+    
+        .cross-bar-2 {
+            opacity: 0;
+        }
+    
+        .cross-bar-3{
+            background-color: red;
+            transform: translate(0, -2px) rotate(45deg);
+        }
+        .nav-bar-ul{
+        width:26rem;
+        padding-top:2rem;
+        position: absolute;
+        right:-150%;
+        top:0%;
+        display:block;
+        transition-duration:0.8s;
+        height:100vh;
+           
+        }
+        .nav-bar-sub-ul{
+            width:100%;
+            top:0.3rem;
+            position:relative;
+            background-color: rgba(0, 0, 0, 0.670);
+        }
+        .nav-bar-li{
+           
+            padding:0px;
+            display: block;
+            padding-top:1.5rem;
+            padding-bottom:2rem;
+            padding-left:0rem;
+            border-bottom: solid 0.1px rgba(128, 128, 128, 0.800);
+            border-top: solid 0.1px rgba(128, 128, 128, 0.800);
+            
+        }
+        .nav-bar-li a{
+            padding-left: 2rem;
+        }
+        
+        .header-container ul 
+    .nav-bar-li 
+    .nav-bar-sub-ul li {
+        background-color: rgba(0, 0, 0, 0);
+        padding:0rem 0rem;
+       
+        padding-top:1rem;
+        padding-bottom:1rem;
+        }
+        
+        .nav-menu-bar-button .center button{
+            width: max-content;
+            display: block;
+            border-radius: 0.rem;
+            border: 0rem solid white;
+            padding: 1.5rem 5rem;
+            transition-duration:0.6s;
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -100%);
+          }
+          .nav-menu-bar-button .center button:hover{
+           
+            background-color: red;
+            color: white;
+            
+        }
+        .header-container ul 
+        .nav-bar-li 
+        .nav-bar-sub-ul {
+            width: 100%;
+            padding:0rem 0rem;
+           border-bottom:none;
+           background-color:rgba(0, 0, 0, 0.037);
+            
+            }
+        
+        .show-nav-menu-bar {
+            background-color: rgba(0, 0, 0, 0.670);
+            width:26rem;
+            height:100vh;
+            overflow: scroll;
+            position: absolute;
+            right: 0.1rem;
+            top:0px;
+            display:block;
+            
+            
+        }
+        
+    
+    .nav-menu-bar-icon-2{
+    padding:2rem;
+    padding-right:3rem;
+    display:flex;
+    justify-content: end;
+    }
+
+    
+   
+
+
+    @media screen and (min-height:350px) AND (max-width:420px){
+        .welcome-text-container{
+            bottom:12rem;
+            left:3rem;
+
+        }
+        .welcome-text-container span{
+            font-size:7rem;
+        }
+        .college-text{
+            bottom:5rem;
+            left:3rem;
+            border-left:0.3rem solid rgb(242, 254, 6);
+        }
+        .college-text h1 span{
+            font-family: "Montserrat Medium";
+            font-size:2rem;
+        }
+        .college-text h1{
+            font-family: "Montserrat Medium";
+            max-width: 35ch;
+            
+          }
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .side-nav-bar-1,.side-nav-bar-2,.side-nav-bar-3{
+      width:10rem;
+      height:8rem;
+    }
+    .side-nav-container a p{
+        font-size:0.8rem;
+    }
+    .side-nav-bar-1:hover p,
+    .side-nav-bar-2:hover p,
+    .side-nav-bar-3:hover p{
+        font-size:1rem;
+        font-weight: bold;
+    }
+    .wlc-animation{
+   
+        left:3rem;
+        bottom:15rem;
+    
+    }
+    .wlc-animation h1{
+       font-size:6rem;
+    
+    }
+    .wlc-animation p{
+        position: relative;
+       right:1rem;
+        font-size:1.8rem;
+     
+     }
+
+    }
+
+    @media screen and (min-height:500px) AND (max-width:420px){
+        .welcome-text-container{
+            bottom:18rem;
+            left:3rem;
+        }
+        .welcome-text-container span{
+        font-size:5.8rem;
+        }
+        .welcome-to-text p{
+        font-size:1rem;
+        }
+        .college-text{
+            bottom:10rem;
+            left:3rem;
+            border-left:0.3rem solid rgb(242, 254, 6);
+        }
+        .college-text h1 span{
+            font-family: "Montserrat Medium";
+            font-size:1.6rem;
+        }
+        .college-text h1{
+            font-family: "Montserrat Medium";
+            max-width: 40ch;
+            
+          }
+        
+        }
+
+
+
+   
+
+
+    @media screen and (min-height:700px) AND (max-width:420px){
+        .welcome-text-container span{
+            font-size:7rem;
+            }
+       
+        .welcome-text-container{
+            bottom:27.5rem;
+            left:3rem;
+        }
+        .college-text{
+            bottom:18rem;
+            left:3rem;
+            border-left:0.3rem solid rgb(242, 254, 6);
+        }
+        .college-text h1 span{
+            font-family: "Montserrat Medium";
+            font-size:1.8rem;
+        }
+        .college-text h1{
+            font-family: "Montserrat Medium";
+            max-width: 40ch;
+            
+          }
+        
+        }
+
+     
+      nav .nav-bar-ul
+       .nav-bar-li 
+       .nav-bar-sub-ul 
+       .nav-bar-sub-li 
+       .nav-bar-sub-a {
+    
+        font-size:1.8rem;
+    
+      }
+      nav .nav-bar-ul
+       .nav-bar-li 
+       .nav-bar-sub-ul 
+       .nav-bar-sub-li:hover
+       .nav-bar-sub-a{
+        color:red;
+        font-size:2rem;
+       
+       }
+      

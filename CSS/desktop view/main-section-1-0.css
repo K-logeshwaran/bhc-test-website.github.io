@@ -1,0 +1,120 @@
+.section-1-0{
+    width:100%;
+    height:fit-content;
+   padding-bottom:5rem;
+   display: flex;
+   justify-content: center;
+ align-items: center;
+flex-direction: column;
+
+}
+
+
+.staffs-container{
+padding:5rem 0rem;
+ width:80%;
+ display: grid;
+ grid-template-columns:repeat(4,2fr);
+ justify-content:center;
+ align-items: center;
+ justify-items: center;
+ align-content: center;
+ row-gap:5rem;
+ row-gap:5rem;
+ 
+    
+  }
+  .staff-items{
+    width:80%;
+ row-gap: 2rem;
+   padding:2rem 3rem;
+  display: flex;
+  justify-content: space-evenly;
+ align-items: center;
+border-radius: 2rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 0.5rem double rgb(24, 98, 210);
+    border-right: 0.5rem double rgb(194, 19, 19);
+    border-top: 0.5rem double rgb(17, 28, 110);
+    border-left: 0.5rem double rgb(21, 16, 118); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+  }
+
+
+  .staff-details-2{
+   align-items: center;
+   justify-content:center;
+    display:flex;
+    flex-direction: column;
+  }
+
+
+  .colour-staff{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border:0.4rem  solid rgb(249, 249, 249);
+   
+  
+    width:12rem;
+    display: flex;
+    justify-content: center;
+    height:100%;
+    background-image: linear-gradient(to bottom right, rgba(42, 91, 206, 0.895), rgb(214, 218, 228));
+border-top-right-radius:1.5rem;
+border-bottom-left-radius:1.5rem;
+  }
+  .staff-details  .colour-staff img{
+  
+  width:100%;
+  position: relative;
+  
+ object-fit: cover;
+  border-top-right-radius:1.5rem;
+  border-bottom-left-radius:1.1rem;
+   
+    
+    
+  }
+  .staff-details-2 h1{
+  
+  padding-left:1.5rem;
+  padding-bottom:1.2rem;
+  line-height:1.8rem;
+      font-size:1.4rem;
+      text-align: center;
+      color: rgba(6, 6, 6, 0.852);
+  }
+  .staff-details-2 p{
+      font-size:1.3rem;
+      /* background-image: linear-gradient(to bottom right, rgb(212, 40, 40), rgb(31, 89, 216)); */
+      border-radius:0.5rem;
+      color: rgba(5, 29, 65, 0.893);
+      padding:0rem 0rem;
+      font-weight:800;
+      /* animation:text-staff 1.5s infinite; */
+  }
+  .heading-staffs{
+   padding:2rem 0rem;
+    width:100%;
+    background-color: rgb(29, 52, 127);
+  text-align: center;
+  
+  }
+.heading-staffs h1{
+  color:rgb(250, 250, 246);
+  width:100%;
+  font-size:3rem;
+  
+ 
+
+}
+
+@keyframes text-staff {
+  
+  to{
+  
+    background-image: linear-gradient(to bottom right, rgb(31, 89, 216),rgb(212, 40, 40));
+  }
+}

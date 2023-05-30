@@ -1,0 +1,131 @@
+
+@media only screen and (max-width: 880px){
+
+    .news-and-events-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .news-container{
+        width:80%;
+
+    }
+    .event-container{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 700px){
+  .news-heading span{
+   
+    font-size:3rem;
+    
+  }
+  .view-more-news-papers a{
+
+    padding:0.8rem 2rem;
+    
+    font-size:1.2rem;
+    
+   }
+   .events-details-row{
+    display: flex;
+    flex-direction: column;
+  }
+  .event-details-container
+ .events-details-align
+ .events-details
+ h5:nth-child(1){ 
+  width:100%;
+ }
+
+ .event-details-container
+ .events-details-align
+ .events-details
+  h5:nth-child(2){
+    width:100%;
+  }
+  .event-details-container
+ .events-details-align
+ .events-details
+  h5:nth-child(3){ 
+    width:100%;
+  }
+}
+
+@media only screen and (max-width: 580px){
+  .news-container{
+    width:100%;
+  }
+  .news-heading span{
+   
+    font-size:2.5rem;
+    
+  }
+  .view-more-news-papers a{
+
+    padding:0.8rem 1.5rem;
+    
+    font-size:1rem;
+    
+   }
+}
+@media only screen and (max-width: 580px){
+  #full-screen-news-paper img{
+    width:20rem;
+    height:fit-content;
+  }
+}
+
+
+
+@media only screen and (max-width: 380px)
+{
+  .news-heading span{
+   
+    font-size:4rem;
+    
+  }
+  .view-more-news-papers a{
+
+    padding:1rem 2rem;
+    
+    font-size:1rem;
+    
+   }
+.news-heading{
+  flex-direction: column;
+}
+.news-heading span{
+ margin-bottom:2rem;
+}
+    .news-container,
+    .events-container
+    {    
+    width:100%;
+    height:fit-content;
+  }
+  .news-heading h1,
+  .events-heading h1{
+    font-size:3rem;
+ 
+}
+.event-details-container 
+.events-details-align
+.events-details
+h3{ 
+  font-size: 1.3rem;
+}
+}
+@media screen and (max-width: 1160px) {
+    .news-papers-container .news-paper-content {
+      grid-auto-columns: calc((100% / 2) - 9px);
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .news-papers-container .news-paper-content {
+      grid-auto-columns: 100%;
+    }
+  }
+
+ 
+ 
