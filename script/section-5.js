@@ -17,7 +17,7 @@ var swiper = new Swiper('.slide-content',{
 0:{
   slidesPerView:1,
 },
-770:{
+800:{
   slidesPerView:2,
 },
 1150:{

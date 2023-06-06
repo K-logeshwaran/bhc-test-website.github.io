@@ -12,7 +12,7 @@ let ftspval = 1.2;
 let speedDivValFootball =1.2
 let maxNum4FontSize = 70;
 let initNum4FontSize = 10
-animeNum4.style.fontSize = initNum4FontSize +"px";
+// animeNum4.style.fontSize = initNum4FontSize +"px";
 document.onscroll = function () {
   console.log("value W : ",(window.scrollY));
   console.log("value T : ",(total.clientHeight));
@@ -53,10 +53,10 @@ document.onscroll = function () {
         -Math.max((window.scrollY - total.clientHeight)/10) + "px";
       //item.style.right = rightValue;
       
-      if(initNum4FontSize!=maxNum4FontSize){
-        initNum4FontSize+=0.5
-        animeNum4.style.fontSize = initNum4FontSize+"px"
-      }
+      // if(initNum4FontSize!=maxNum4FontSize){
+      //   // initNum4FontSize+=0.5
+      //   // animeNum4.style.fontSize = initNum4FontSize+"px"
+      // }
       item.style.transform = `translateY(${rightValue})`;
     });
 

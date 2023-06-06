@@ -1,12 +1,14 @@
 .section-6{
   width: 100%;
   height:fit-content;
+  overflow: hidden;
+
 }
 
 .grid-container-1,
 .grid-container-2,
 .grid-container-3 {
-    width:80%;
+    width:90%;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     align-items: center;
@@ -16,9 +18,15 @@
     padding:2rem;
 
 }
-
+.in-door-container 
+{
+    padding-top:2rem;
+    width:100%;
+    
+}
 .in-door-container h1{
-padding-top:5rem;
+padding-top:2rem;
+
 }
 
 .in-door-container h1,
@@ -65,8 +73,8 @@ padding-top:5rem;
 }
 
 .sports-card img {
-    width: 85%;
-    border-radius:2rem;
+    width:90%;
+    border-radius:0.5rem;
     box-shadow: 10px 10px 5px #ccc;
       -moz-box-shadow: 10px 10px 5px #ccc;
       -webkit-box-shadow: 10px 10px 5px #ccc;
@@ -75,11 +83,12 @@ padding-top:5rem;
 }
 
 .sports-card h2 {
-    font-size:2.5rem;
+    font-size:2rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -10%);
+    width:100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 
 }
 

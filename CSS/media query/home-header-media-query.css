@@ -35,7 +35,7 @@
 
 
     .cross-bar-1 {
-        background-color: red;
+        background-color: rgb(255, 98, 0);
         transform: translate(0, 2px) rotate(-45deg);
     }
 
@@ -44,7 +44,7 @@
     }
 
     .cross-bar-3 {
-        background-color: red;
+        background-color: rgb(255, 98, 0);
         transform: translate(0, -2px) rotate(45deg);
     }
     .nav-bar-ul{
@@ -94,13 +94,18 @@
     padding-bottom:1rem;
     }
     .nav-menu-bar-button{
-        
         display: block;
         padding: 2rem;
         padding-top: 5rem;
     }
-    .nav-menu-bar-button .center button{
+    .nav-menu-bar-button .center .nav-menu-bar-button-a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    .nav-menu-bar-button .center .nav-menu-bar-button-a button{
         width: max-content;
+        font-size:1.2rem;
         display: block;
         border: 0rem solid white;
         padding: 1.5rem 5rem;
@@ -115,8 +120,9 @@
         transform: translate(-50%, -100%);
         
       }
-      .nav-menu-bar-button .center button:hover{
-        background-color: red;
+      
+      .nav-menu-bar-button .center .nav-menu-bar-button-a button:hover{
+        background-color: rgb(255, 98, 0);
         color: white;
     }
     .header-container ul 
@@ -211,36 +217,195 @@ justify-content: end;
       }
 }
 
-@media screen and (max-width: 540px){
-    .sports-logo-container{
-        padding-bottom:2rem;
+@media screen and (max-width: 590px){
+    .nav-bar-image-container a:nth-child(2) img{
+        width:20rem;
     }
+    .nav-bar-image-container a:nth-child(2) img{
+        margin-left:0px;
+    }
+
+    #reg-btn{
+        display: none;
+    }
+    header{
+       display: flex;
+       flex-direction:column;
+    }
+.side-header-image-container{
+   
+    display:flex;
+    height:80%;
+    align-items:end;
+    justify-content:center;
+    flex-direction:column;
+   
+  
+   
+}
+
+
+.side-header-image-1,
+.side-header-image-2,
+.side-header-image-3{
+    margin-top:2rem;
+    display:inline-flex;
+    width: 10rem;
+    height:3rem;
+background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    text-align: center;
+    background-blend-mode: multiply;
+    animation: side2 0.8s;
+    border-left:0.3rem solid rgba(0, 0, 0, 0.6);
+    border-top: 0.3rem solid rgba(0, 0, 0, 0.6);
+    border-bottom: 0.3rem solid rgba(0, 0, 0, 0.6);
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+    
+}
+#arrow-header{
+    font-size:1.3rem;
+    display: block;
+    position: relative;
+    left:0.3rem;
+    top:-0.2rem
+}
+
+@keyframes side2 {
+    0%{
+        position: relative;
+        left:150%;
+    }100%{
+        position: relative;
+        left:0%;
+    }
+}
+.side-header-image-1{
+background-image: none;
+}
+.side-header-image-2{
+    background-image: none;
+}
+.side-header-image-3{
+    background-image: none;
+}
+.side-header-image-container a,
+.side-header-image-container a,
+.side-header-image-container a{
+    text-decoration: none;
+}
+.side-header-image-container a p,
+.side-header-image-container a p,
+.side-header-image-container a p{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    color: rgb(210, 210, 210);
+    font-size:0.8rem;
+    transition-duration:0.6s;
+     animation:none; 
+}
+
+.color{
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius:0.5rem;
+    width:100%;
+    height:100%;
+    opacity:1;
+    transition-duration:1s;
+}
+    
+.side-header-image-1:hover .color,
+.side-header-image-2:hover .color,
+.side-header-image-3:hover .color{
+    /* background-color: #ffffff20; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.168), rgba(0, 0, 0, 0.319), rgba(255, 255, 255, 0.142));;
+    transform: perspective(400px) scaleX(-1);
+    font-size:0.9rem;
+    border-top-right-radius:1rem;
+    border-bottom-right-radius:1rem;
+    
+    
+    }
+    .side-header-image-1:hover .color p,
+.side-header-image-2:hover .color p,
+.side-header-image-3:hover .color p{
+    transform: scale(-1, 1);
+    font-size:0.9rem;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+  
+}
+    
+.side-header-image-1:hover p,
+.side-header-image-2:hover p,
+.side-header-image-3:hover p{
+    font-size:1.2rem;
+    color: rgb(229, 238, 74);
+   
+}
+
+
+
+
+.sports-logo-container{
+    padding-bottom:0rem;
+    left:0px;
+}
     .sports-logo-container img{
-        width:16rem;
+        width:13rem;
+        padding-bottom:0;
+        left: 0px;
+        
     }
     .welcome-text-container{
-        left:4rem;
+        left:2rem;
         bottom:15rem;
+        
     }
     .welcome-to-text p{
-      font-size:2rem;
+      font-size:1.8rem;
     }
     .waviy span{
+
         font-size:8rem;
     }
+    /* .college-text h1{
+        font-family: "Montserrat Medium";
+        max-width:none;
+        
+        text-align: center;
+        text-align: left;
+        transform: scale(0.94);
+        animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+        animation: blink 2s infinite;
+      } */
     .college-text{
-        bottom:6.3rem;
-        left:4rem;
-        border-left:0.3rem solid rgb(198, 180, 22);
+       
+        width:100%;
+        bottom:9%;
+        left:0px;
+        border-left:0.5rem solid rgb(198, 180, 22);
+        background-color: rgba(0, 0, 0, 0.544);
+      
     }
     .college-text h1 span{
         font-family: "Montserrat Medium";
-        font-size:1.9rem;
+        font-size:1.8rem;
         letter-spacing:0.5;
     }
     .college-text h1{
         font-family: "Montserrat Medium";
-        max-width: 40ch;
+        max-width: 100%;
+        padding: 1rem;
+       
+       
         
       }
       @keyframes glow{
@@ -271,7 +436,7 @@ justify-content: end;
         }
     }
 }
-
+/* 
 @media screen and (max-width: 420px){
     .sports-logo-container{
         padding-bottom:1rem;
@@ -420,7 +585,7 @@ justify-content: end;
 
 
     .cross-bar-1 {
-        background-color: red;
+        background-color: rgb(255, 98, 0);
         transform: translate(0, 2px) rotate(-45deg);
     }
 
@@ -429,7 +594,7 @@ justify-content: end;
     }
 
     .cross-bar-3{
-        background-color: red;
+        background-color: rgb(255, 98, 0);
         transform: translate(0, -2px) rotate(45deg);
     }
     .nav-bar-ul{
@@ -481,7 +646,7 @@ justify-content: end;
     .nav-menu-bar-button .center button{
         width: max-content;
         display: block;
-        border: 0rem solid red;
+        border: 0rem solid rgb(255, 98, 0);
         padding: 1.5rem 5rem;
         transition-duration:0.6s;
     }
@@ -494,7 +659,7 @@ justify-content: end;
         transform: translate(-50%, -100%);
       }
       .nav-menu-bar-button .center button:hover{
-        background-color: red;
+        background-color: rgb(255, 98, 0);
         color: white;
     }
     .header-container ul 
@@ -544,9 +709,9 @@ justify-content: end;
  }
 
 
-}
+} */
 
-    @media only screen and (max-width: 330px){
+    /* @media only screen and (max-width: 330px){
         .nav-bar-button-container{
             display: none;
         }
@@ -590,7 +755,7 @@ justify-content: end;
     
     
         .cross-bar-1 {
-            background-color: red;
+            background-color: rgb(255, 98, 0);
             transform: translate(0, 2px) rotate(-45deg);
         }
     
@@ -599,7 +764,7 @@ justify-content: end;
         }
     
         .cross-bar-3{
-            background-color: red;
+            background-color: rgb(255, 98, 0);
             transform: translate(0, -2px) rotate(45deg);
         }
         .nav-bar-ul{
@@ -662,7 +827,7 @@ justify-content: end;
           }
           .nav-menu-bar-button .center button:hover{
            
-            background-color: red;
+            background-color: rgb(255, 98, 0);
             color: white;
             
         }
@@ -703,7 +868,7 @@ justify-content: end;
 
     @media screen and (min-height:350px) AND (max-width:420px){
         .welcome-text-container{
-            bottom:12rem;
+            bottom:10rem;
             left:3rem;
 
         }
@@ -770,12 +935,22 @@ justify-content: end;
      }
 
     }
-
-    @media screen and (min-height:500px) AND (max-width:420px){
+/* njnj */
+    /* @media screen and (min-height:500px) AND (max-width:420px){
         .welcome-text-container{
             bottom:18rem;
             left:3rem;
         }
+        .sports-logo-container img{
+            width:12rem;
+        }
+        .college-text h1{
+            font-family: "Montserrat Medium";
+            max-width: 20ch;
+            
+            
+          }
+        
         .welcome-text-container span{
         font-size:5.8rem;
         }
@@ -785,7 +960,7 @@ justify-content: end;
         .college-text{
             bottom:10rem;
             left:3rem;
-            border-left:0.3rem solid rgb(242, 254, 6);
+            border-left:0.3rem solid rgb(228, 203, 14);
         }
         .college-text h1 span{
             font-family: "Montserrat Medium";
@@ -809,6 +984,7 @@ justify-content: end;
             font-size:7rem;
             }
        
+            
         .welcome-text-container{
             bottom:27.5rem;
             left:3rem;
@@ -845,8 +1021,8 @@ justify-content: end;
        .nav-bar-sub-ul 
        .nav-bar-sub-li:hover
        .nav-bar-sub-a{
-        color:red;
+        color:rgb(255, 98, 0);
         font-size:2rem;
        
        }
-      
+       */ 

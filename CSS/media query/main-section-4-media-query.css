@@ -1,10 +1,118 @@
 
+@media only screen and (max-width:1270px){
+    .football-player-image{
+
+        position: absolute;
+        transform: none;
+        bottom:0px;
+        left:0px;
+    }
+}
 
 
 @media only screen and (max-width:870px){
+    .heading-football{
+font-size:4rem;
+    }
+    .graphics-container-2 {
+        position: relative;
+    
+        width: 100%;
+        min-height:fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+    
+    }
+    .football-player-image{
+        width:42rem;
+        height:40rem;
+    }
+
+    .side-number-football h1,
+.top-number-football h1 {
+    
+   font-size:4rem;
+}
+
+    #number-anime{
+     font-size:5rem;
+    }
+    #football-number-1 h3{
+        font-size:2rem;
+    }
+    #number-anime-2{
+        font-size:5rem;
+    }
+    #football-number-2 h3{
+        font-size:2rem;
+    }
+    #number-anime-3{
+        font-size:5rem;
+    }
+    #football-number-3 h3{
+        font-size:2rem;
+    }
+    #football-number-4 h1{
+        font-size:5rem;
+    }
+    #football-number-4 h3{
+        font-size:2rem;
+    }
+}
+@media only screen and (max-width:670px){
+    .graphics-container-2 {
+        position: relative;
+    
+        width: 100%;
+        min-height:fit-content;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #181818;
+    
+    }
+    .football-player-image{
+        width:32rem;
+        height:30rem;
+    }
+
+    /* .side-number-football h1,
+.top-number-football h1 {
+    
+   font-size:2rem;
+} */
+
+    #number-anime,
+    #number-anime-2,
+    #number-anime-3,
+    #number-anime-4{
+        font-size:4rem;
+    }
+  
+    #football-number-1 h3,
+    #football-number-2 h3
+    #football-number-3 h3
+    #football-number-4 h3{
+        font-size:1.5rem;
+    }
+   
+}
+/* 
+@media only screen and (max-width:870px){
     
     .football-player-container img{
-        width:40rem;
+        height:10rem;
+        width:8rem;
+    }
+    .heading-football{
+        text-align: center;
+        color: rgb(227, 213, 7);
+        padding: 2.5rem;
+        font-size: 4rem;
     }
     .number-1 h1,
     .number-2 h1,
@@ -26,23 +134,18 @@
     font-size: 1.5rem;
 }
 }
-@media only screen and (max-width:780px){
-    .graphics-container-2 {
-        position: relative;
-        width: 100%;
-        min-height:70vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: #181818;
-        position: relative;
-        object-fit: cover;
+@media only screen and (max-width:600px){
+    .heading-football{
+        text-align: center;
+        color: rgb(227, 213, 7);
+        padding: 2.5rem;
+        font-size: 3rem;
     }
 }
 
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:100px){
     
     .football-player-container img{
         width:38rem;
@@ -121,4 +224,4 @@
 .number-4 h3{
     font-size: 1rem;
 }
-}
+} */

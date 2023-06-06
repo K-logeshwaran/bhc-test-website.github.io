@@ -7,6 +7,33 @@
 
 @media only screen and (max-width: 700px){
 
+  .content-container-1 h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .since-container .content-container-2 p,
+.since-container .content-container-3 p,
+.since-container .content-container-4 p,
+.since-container .content-container-5 p,
+.since-container .content-container-6 p,
+.since-container .content-container-7 p,
+.since-container .content-container-8 p {
+    
+    font-size: 1.6rem;
+}
+.since-container .content-container-2 h2,
+.since-container .content-container-3 h2,
+.since-container .content-container-4 h2,
+.since-container .content-container-5 h2,
+.since-container .content-container-6 h2,
+.since-container .content-container-7 h2,
+.since-container .content-container-8 h2{
+  font-size:2.5rem;
+}
+#ss {
+  font-size: 4rem;
+}
    
     #iframe-sports-bullet-1{
         width:100%;
@@ -91,7 +118,7 @@
 
 @media only screen and (max-width: 650px){
     .content-container-1 h1{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
     
     .content-container-3,
@@ -101,6 +128,25 @@
     .content-container-7,
     .content-container-8{
         flex-direction: column;
+    }
+
+    .since-container .content-container-2 p,
+    .since-container .content-container-3 p,
+    .since-container .content-container-4 p,
+    .since-container .content-container-5 p,
+    .since-container .content-container-6 p,
+    .since-container .content-container-7 p,
+    .since-container .content-container-8 p {
+        
+        font-size: 1.5rem;
+    }
+    .since-container .content-container-3 h2,
+    .since-container .content-container-4 h2,
+    .since-container .content-container-5 h2,
+    .since-container .content-container-6 h2,
+    .since-container .content-container-7 h2,
+    .since-container .content-container-8 h2{
+      font-size:2rem;
     }
     .content-container-2{
         flex-direction:column-reverse;
@@ -124,6 +170,34 @@
 
 
 @media only screen and (max-width: 450px){
+  .content-container-1 h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  
+  .since-container .content-container-2 p,
+.since-container .content-container-3 p,
+.since-container .content-container-4 p,
+.since-container .content-container-5 p,
+.since-container .content-container-6 p,
+.since-container .content-container-7 p,
+.since-container .content-container-8 p {
+    
+    font-size: 1.3rem;
+}
+#ss {
+  font-size: 3rem;
+}
+.since-container .content-container-2 h2 ,
+.since-container .content-container-3 h2,
+.since-container .content-container-4 h2,
+.since-container .content-container-5 h2,
+.since-container .content-container-6 h2,
+.since-container .content-container-7 h2,
+.since-container .content-container-8 h2{
+  font-size:2rem;
+}
 
     .sports-bullet-year ul{
         display: grid;

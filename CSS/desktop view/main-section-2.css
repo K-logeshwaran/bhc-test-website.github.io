@@ -1,3 +1,7 @@
+@font-face {
+    font-family:'jq';
+    src: url(./../../fonts/jq/JacquesFrancoisShadow-Regular.otf);
+}
 .section-2 {
     background-color: rgba(0, 0, 0, 0.575);
     color: aliceblue;
@@ -6,6 +10,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .content-container-1,
 .content-container-3,
 .content-container-4,
@@ -13,6 +18,7 @@
 .content-container-6,
 .content-container-7,
 .content-container-8 {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,21 +83,26 @@
     padding: 4rem 0rem 1rem 10rem;
 }
 .content-container-1 h1 {
+    color: #FBBC05;
     font-size: 3.5rem;
-    font-family: serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:550;
     justify-content: center;
     align-content: center;
     align-items: center;
     justify-items: center;
     padding: 5rem 2rem 2rem 2rem;
+    text-align: center;
+   
 }
+
 .bg {
-    background-image: url(../../images/section-background-images/why-us.jpg);
+    background-image: url(../../images/section-background-images/istockphoto-538489900-2048x2048-transformed.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    background-color: #0000006e;
+    background-color: #0000006f;
     background-blend-mode: multiply;
 }
 .since-container .content-container-2 h2 {
@@ -99,19 +110,51 @@
     padding-bottom: 2rem;
     font-size: 3rem;
     font-family: "Lato";
+    left:1rem;
+}
+.bg .content-container-2 .content-1 h2,
+.bg .content-container-3 .content-1 h2,
+.bg .content-container-3 .content-2 h2,
+.bg .content-container-4 .content-1 h2,
+.bg .content-container-4 .content-2 h2,
+.bg .content-container-5 .content-1 h2,
+.bg .content-container-5 .content-2 h2,
+.bg .content-container-6 .content-1 h2,
+.bg .content-container-6 .content-2 h2,
+.bg .content-container-7 .content-1 h2,
+.bg .content-container-7 .content-2 h2,
+.bg .content-container-8 .content-1 h2{
+    color: #FBBC05;
 }
 
 #ss {
     font-size: 5rem;
+    animation:leftss 2s infinite;
+    position: relative;
+    
 }
+
+@keyframes leftss {
+    0%{
+       left:0.8rem;
+    }
+    50%{
+       left:0.2rem;
+    }
+    100%{
+        left:0.8rem;
+    }
+}
+
 .visit-heading {
     font-size: 4rem;
     text-transform: uppercase;
     text-align: center;
     margin: 1rem 0;
-    color: #fff;
+    color: #d7cccc;
     font-family: serif;
     padding-bottom: 2rem;
+    font-family:'jq';
 }
 
 .visit-container {
@@ -120,6 +163,7 @@
     padding-top: 2rem;
     position: relative;
 }
+
 .visit-container nav ul {
     box-shadow: 2px 2px 30px 2px rgba(245, 245, 245, 0.509);
     display: flex;
@@ -135,14 +179,15 @@
 }
 .visit-container nav ul a {
     text-decoration: none;
-    color: rgb(12, 18, 91);
+    color: rgb(98, 96, 94);
     font-size: 3rem;
     font-weight: 800;
     font-family: "Lato";
     transition-duration: 0.6s;
+    cursor: pointer;
 }
 .visit-container nav ul a:hover {
-    color: rgb(171, 10, 10);
+    color:rgb(255, 98, 0);
     font-size: 4rem;
     font-family: "Lato";
 }
@@ -164,10 +209,15 @@
     padding: 0.3rem 1.5rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-    border: 0.1rem solid rgba(206, 25, 25, 0.863);
+    font-size: 1.4rem;
+    background-image: linear-gradient(to bottom right,rgb(213, 94, 19),#FBBC05);
+    border-radius:3rem;
     transition-duration: 0.3s;
+
+    
+
 }
+
 .conter {
     display: none;
 }
@@ -177,9 +227,10 @@
     transition-duration: 0.3s;
 }
 .content-container-2 .content-1 a:hover {
-    background-color: #fff;
-    color: rgba(206, 25, 25, 0.863);
-    border: 0.1rem solid rgba(255, 255, 255, 0.863);
+    background-image: linear-gradient(to bottom right, #FBBC05,rgb(213, 94, 19));
+
+    color:#ffffff;
+ 
 }
 
 .conter {
@@ -197,6 +248,7 @@
     opacity: 1;
     animation: w 2s;
     display: flex;
+  
 }
 @keyframes w {
     0% {
@@ -222,16 +274,16 @@
 }
 @keyframes glow-testi {
     0% {
-        -webkit-filter: drop-shadow(5px 5px 5px #ffffff58);
-        filter: drop-shadow(5px 5px 5px #ffffff71);
+        -webkit-filter: drop-shadow(5px 5px 5px #fbbd059b);
+        filter: drop-shadow(5px 5px 5px #fbbd0591);
     }
     50% {
         -webkit-filter: drop-shadow(5px 5px 5px #00000058);
         filter: drop-shadow(5px 5px 5px #00000071);
     }
     100% {
-        -webkit-filter: drop-shadow(5px 5px 5px #ffffff58);
-        filter: drop-shadow(5px 5px 5px #ffffff71);
+        -webkit-filter: drop-shadow(5px 5px 5px #fbbd058d);
+        filter: drop-shadow(5px 5px 5px #fbbd058c);
     }
 }
 
@@ -351,4 +403,35 @@
 
 .sports-bullet-container-show {
     display: none;
+}
+
+.se-dot-1,
+.se-dot-2,
+.se-dot-3{
+    font-size:2rem;
+    padding-left:0.3rem;
+}
+.se-dot-1{
+ animation:sedot 1s infinite;
+}
+.se-dot-2{
+    animation:sedot 1s infinite;
+   }
+   .se-dot-3{
+    animation:sedot 1s infinite;
+   }
+
+
+@keyframes sedot {
+    
+    0%{
+        
+        opacity:1;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100%{
+        opacity:1;
+    }
 }

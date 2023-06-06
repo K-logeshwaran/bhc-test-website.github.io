@@ -1,11 +1,29 @@
-fieldset{
-    width:60%;
-    margin: auto;
-}
-legend {
-    text-align: center;
-}
-legend h1{
- font-size: 4rem;
+@media only screen and (max-width: 600px) {
+    fieldset {
+        max-width: 90%;
+    }
+    .form-grid {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
 
+    }
+    .form-grid textarea {
+        max-width: 99%;
+    }
+    fieldset legend h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    legend {
+        color: gray;
+        padding: 5px 10px;
+    }
+
+    .sports-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }

@@ -2,9 +2,11 @@
 .section-5{
     width:100%;
     height:fit-content;
+   
+
 }
 .infrastructure-container{
-    background-color: #EFEFEF;
+   
     width: 100%;
     height:fit-content;
    display: flex;
@@ -14,72 +16,85 @@
   justify-items: center;
    
 }
-.infrastructur-heading h1 {
-   font-size:2rem;
-
-}
 .infrastructur-heading{
-    padding:2rem 0rem;
+    width:100%;
+    padding:1rem 0rem;
+    
 }
-
+.infrastructur-heading h1{
+    font-size:4rem;
+   
+    background-color: #FFF;
+    padding:0.5rem 0rem;
+ 
+ 
+ }
 .slide-container{
     width:100%;
-    background-color:rgba(0, 0, 0, 0.623);
-    padding:3rem 0;
+   padding:2rem 0rem;
+   padding-top:5rem;
+   background-color: #222222;
+    height:100%;
+    
+    
 }
+
+
 .slide-content{
- 
     margin: 0 5rem;
     overflow: hidden;
     border-radius:2.5rem;
+    height:100%;
 }
 .card{
-    
+    width:100%;
     border-radius:2rem;
-   
+   border:5px solid rgb(255, 255, 255);
     background-color:#FFF;
 }
-.image-content,
+/* .image-content,
 .card-content{
     display: flex;
     flex-direction: column;
     align-items: center  ;
   
-}
+} */
+
 .image-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+    height:100%;
     position: relative;
     row-gap:2rem;
   
-    
-    
-  
+}
+.card-content{
+    flex-basis:20%;
 }
 
-.swiper-slide{
-    width:100%;
-}
-.card-img{
-   border-radius:2rem;
-}
+
+
+
 
 .card-image{
-
-    position: relative;  
-    height:100%;
-    width:100%;
-   
-
-}
-.card-image .card-img{
-    height:100%;
-    width:100%;
-    
+   flex-basis:80%;
+   object-fit: cover;
     
 } 
+.card-img{
+    border-radius:2rem;
+     width:100%;
+     object-fit: fill;
+     height:100%;
+    
+}
 .infra-name{
+
     font-size: 1.8rem;
     font-weight:bold;
-    color: #333;
+    color: #333333;
 }
 
 .infra-button{
@@ -350,4 +365,14 @@ font-weight: lighter;
 .cross-3{
     background-color: rgb(231, 242, 14);
     transform: translate(0, -2px) rotate(45deg);
+}
+.swiper-slide{
+    width:100%;
+    height:60vh;
+      border-radius:2rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+.swiper-slide-active{
+    margin-bottom:4rem;
 }

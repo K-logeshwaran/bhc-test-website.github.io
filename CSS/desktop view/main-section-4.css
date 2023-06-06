@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .left-to-right-football{
@@ -27,7 +28,7 @@
     position: relative;
 
     width: 100%;
-    min-height: 80vh;
+    min-height:80vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -54,7 +55,7 @@
 .side-number-football h1,
 .top-number-football h1 {
     
-    font-size:6rem;
+    font-size:5.5rem;
     font-family:monospace;
     color: rgb(255, 255, 255);
     padding-top: 2rem;
@@ -106,7 +107,7 @@ left:50%;
     transition: --num 2s;
     counter-set: num var(--num);
     font: 800 40px system-ui;
-    font-size:1rem;
+    font-size:5rem;
 }
 
 .footbal-num-anim-1::before {

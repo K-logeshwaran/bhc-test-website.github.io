@@ -18,10 +18,71 @@
         font-size: 1.8rem;
         color: rgb(249, 249, 249);
     }
+  
 
 }
 
-@media only screen and (max-width:770px){
+@media only screen and (max-width:1150px){
+    .swiper-slide{
+        width:100%;
+        height:fit-content;
+          border-radius:2rem;
+        background-color: rgb(255, 255, 255);
+        
+    }
+}
+@media only screen and (max-width:800px){
+    .swiper-slide{
+        width:100%;
+        height:fit-content;
+          border-radius:2rem;
+        background-color: rgb(255, 255, 255);
+       
+        
+    }
+    .slide-container{
+        width:100%;
+       padding:0rem 0rem;
+       padding-top:2rem;
+       background-color: #222222;
+        height:100%;
+        
+        
+    }
+    
+    .card-content{
+        flex-basis:10%;
+    }
+    
+    .infra-button{
+        border: none;
+        font-size:1.4rem;
+       
+        color: #FFF;
+        padding:0.6rem 1.2rem;
+        background-color:#f0d332 ;
+        border-radius:0.6rem;
+        margin:1.4rem;
+        cursor: pointer;
+        transition: all 0.3 ease;
+    }
+    
+    
+    
+    
+    .card-image{
+       flex-basis:90%;
+       object-fit: cover;
+        
+    } 
+    .infra-name{
+
+        font-size: 1.4rem;
+        font-weight:bold;
+        color: #333333;
+    }
+    
+    
     .infra-frame h1,
     .infra-frame-2 h1,
     .infra-frame-3 h1,
@@ -168,4 +229,152 @@ font-size:1.3rem;
 .slide-content{
     margin: 0rem 2.4rem;
 }
+.infrastructur-heading h1 {
+    font-size:3rem;
+   
+    background-color: #FFF;
+    padding:2rem 0rem;
+ 
+ 
+ }
+}
+@media only screen and (max-width:340px){
+
+    
+    .infra-frame .frame-text h3,
+.infra-frame-2 .frame-text h3,
+.infra-frame-3 .frame-text h3,
+.infra-frame-4 .frame-text h3,
+.infra-frame-5 .frame-text h3,
+.infra-frame-6 .frame-text h3,
+.infra-frame-7 .frame-text h3,
+.infra-frame-8 .frame-text h3,
+.infra-frame-9 .frame-text h3,
+.infra-frame-10 .frame-text h3,
+.infra-frame-11 .frame-text h3,
+.infra-frame-12 .frame-text h3,
+.infra-frame-13 .frame-text h3,
+.infra-frame-14 .frame-text h3,
+.infra-frame-15 .frame-text h3
+{
+    font-size:1rem;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    letter-spacing:0rem;
+  
+    
+}
+    .close-icon,
+    .close-icon-2,
+    .close-icon-3,
+    .close-icon-4,
+    .close-icon-5,
+    .close-icon-6,
+    .close-icon-7,
+    .close-icon-8,
+    .close-icon-9,
+    .close-icon-10,
+    .close-icon-11,
+    .close-icon-12,
+    .close-icon-13,
+    .close-icon-14,
+    .close-icon-15{
+       
+        padding:0;
+        padding-top:1.4rem;
+        
+    }
+    .close-icon .cross-1,
+    .close-icon .cross-3,
+    .close-icon-2 .cross-1,
+    .close-icon-2 .cross-3,
+    .close-icon-3 .cross-1,
+    .close-icon-3 .cross-3,
+    .close-icon-4 .cross-1,
+    .close-icon-4 .cross-3,
+    .close-icon-5 .cross-1,
+    .close-icon-5 .cross-3,
+    .close-icon-6 .cross-1,
+    .close-icon-6 .cross-3,
+    .close-icon-7 .cross-1,
+    .close-icon-7 .cross-3,
+    .close-icon-8 .cross-1,
+    .close-icon-8 .cross-3,
+    .close-icon-9 .cross-1,
+    .close-icon-9 .cross-3,
+    .close-icon-10 .cross-1,
+    .close-icon-10 .cross-3,
+    .close-icon-11 .cross-1,
+    .close-icon-11 .cross-3,
+    .close-icon-12 .cross-1,
+    .close-icon-12 .cross-3,
+    .close-icon-13 .cross-1,
+    .close-icon-13 .cross-3,
+    .close-icon-14 .cross-1,
+    .close-icon-14 .cross-3,
+    .close-icon-15 .cross-1,
+    .close-icon-15 .cross-3{
+      width:1.5rem;
+    }
+   
+    .infra-frame h1,
+.infra-frame-2 h1,
+.infra-frame-3 h1,
+.infra-frame-4 h1,
+.infra-frame-5 h1,
+.infra-frame-6 h1,
+.infra-frame-7 h1,
+.infra-frame-8 h1,
+.infra-frame-9 h1,
+.infra-frame-10 h1,
+.infra-frame-11 h1,
+.infra-frame-12 h1,
+.infra-frame-13 h1,
+.infra-frame-14 h1,
+.infra-frame-15 h1{
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: rgb(249, 249, 249);
+}
+.infra-head-2 .frame-text h3{
+font-size:1rem;
+
+}
+
+.swiper-button-next:after{
+    font-size:2rem;
+    padding-left:2rem;
+}
+ .swiper-button-prev:after{
+    font-size:2rem;
+    padding-right:2rem;
+}
+
+    .infrastructur-heading h1 {
+        font-size:2rem;
+       
+        background-color: #FFF;
+        padding:1rem 0rem;
+     
+     
+     }
+     .infra-name{
+
+        font-size: 1.2rem;
+        font-weight:bold;
+        color: #333333;
+    }
+    .infra-button{
+        border: none;
+        font-size:1rem;
+       
+        color: #FFF;
+        padding:0.4rem 0.8rem;
+        background-color:#f0d332 ;
+        border-radius:0.6rem;
+        margin:1rem;
+        cursor: pointer;
+        transition: all 0.3 ease;
+    }
+    
 }

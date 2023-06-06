@@ -19,7 +19,7 @@ header{
     background-attachment: fixed;
     background-size: cover;
     animation: fade 60s infinite;
-    background-color: rgba(0, 0, 0, 0.508);
+
     background-blend-mode: multiply;
     overflow-x: hidden;
     
@@ -29,11 +29,19 @@ header{
     display: flex;
     width:100%;
     height:9rem;
-    background-color: rgba(0, 0, 0, 0.642);
+ background-color: rgba(0, 0, 0, 0.4); 
     justify-content:end;
     align-items:center;
     z-index:100;
 }
+.header-background-colour{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+  position: absolute;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.4) 40%, rgba(0,0,0,0.04254201680672265) 80%); 
+  }
 .nav-bar-image-container{
     position: absolute;
     padding-left:1rem;
@@ -73,6 +81,7 @@ header{
     }
     
 }
+
 .nav-bar-image-container .college-logo-2{
     display:none;
 }
@@ -120,19 +129,26 @@ header{
     padding: 0 1.5rem;
 }
 .nav-bar-button-container button{
+    padding:0px;
+  
+}
+
+.nav-bar-button-container a button{
     background-color:rgb(255, 255, 255);
     padding:1.5rem 3rem;
     border-radius:0.3rem;
     transition-duration:0.6s;
     font-size:1.4rem;
-    border: 0rem solid red;
+    border: 0rem solid rgb(255, 98, 0);
     cursor: pointer;
+    color: #000000;
 }
-.nav-bar-button-container :hover{
-    background-color:red;
+.nav-bar-button-container a button:hover{
+    background-color:rgb(255, 98, 0);
     color: white;
     border-radius:2px;
 }
+
 .header-nav-bar .nav-bar-ul li a{
     font-size:1.4rem;
     color: white;
@@ -142,7 +158,7 @@ header{
 .header-nav-bar .nav-bar-ul li a:hover{
     font-size:1.6rem;
     padding:1rem;
-    color: rgb(190, 31, 31);
+    color: rgb(255, 98, 0);
     text-decoration: none;
 
 }
@@ -164,7 +180,7 @@ header{
     padding:1.5rem;
     text-align:left;
     display: none;
-    border-bottom:3px solid red;
+    border-bottom:3px solid rgb(255, 98, 0);
 }
 
 .header-container ul 
@@ -188,7 +204,7 @@ header{
 .nav-bar-ul li:nth-child(odd):hover .nav-bar-a{
     
     padding:1.8rem;
-    color: red;
+    color: rgb(255, 98, 0);
 }
 .nav-bar-ul li:nth-child(even):hover .arrow-down,
 .nav-bar-ul li:nth-child(odd):hover .arrow-down{
@@ -228,12 +244,15 @@ header{
 
 .sports-logo-container{
     display: flex;
+    z-index:2;
+
    
    
     
 }
 .sports-logo-container img{
     width:25rem;
+    z-index:2;
    
 }
 
@@ -242,6 +261,7 @@ header{
   position: absolute;
   left:10rem;
 bottom:5rem;
+z-index:2;
  
   
     
@@ -255,10 +275,11 @@ bottom:5rem;
     text-shadow:1px 1px 10px rgb(0, 0, 0);
     animation: glow 8s infinite;
     letter-spacing:0.5rem;
+    z-index:2;
     
 }
 .welcome-to-text{
-    
+    z-index:2;
     animation: bb 4s;
 }
 @keyframes bb {
@@ -317,11 +338,12 @@ bottom:5rem;
 .side-header-image-1,
 .side-header-image-2,
 .side-header-image-3{
+    z-index:2;
     margin-top:6rem;
     display:inline-flex;
     width: 15rem;
     height:10rem;
-    background-color: rgba(0, 0, 0, 0.508);;
+    background-color: rgba(0, 0, 0, 0.2);;
     background-size: cover;
     text-align: center;
     background-blend-mode: multiply;
@@ -352,18 +374,19 @@ bottom:5rem;
     }
 }
 .side-header-image-1{
-background-image: url(./../../images/header-display/2.JPG);
+background-image: url(./../../images/side-bar-header/welcome.jpg);
 }
 .side-header-image-2{
-    background-image: url(./../../images/header-display/2.JPG);
+    background-image: url(./../../images/side-bar-header/1.JPG);
 }
 .side-header-image-3{
-    background-image: url(./../../images/header-display/2.JPG);
+    background-image: url(./../../images/side-bar-header/annual\ sports-min.JPG);
 }
 .side-header-image-container a,
 .side-header-image-container a,
 .side-header-image-container a{
     text-decoration: none;
+    z-index:2;
 }
 .side-header-image-container a p,
 .side-header-image-container a p,
@@ -376,6 +399,7 @@ background-image: url(./../../images/header-display/2.JPG);
     color: rgb(210, 210, 210);
     font-size:1rem;
     transition-duration:0.6s;
+    z-index:2;
     animation: move 3s infinite;
 }
 
@@ -386,11 +410,13 @@ background-image: url(./../../images/header-display/2.JPG);
     height:100%;
     opacity:1;
     transition-duration:1s;
+    z-index:2;
 }
     
 .side-header-image-1:hover .color,
 .side-header-image-2:hover .color,
 .side-header-image-3:hover .color{
+    z-index:2;
     /* background-color: #ffffff20; */
     background-image: linear-gradient(rgba(255, 255, 255, 0.168), rgba(0, 0, 0, 0.319), rgba(255, 255, 255, 0.142));;
     transform: perspective(400px) scaleX(-1);
@@ -537,23 +563,25 @@ background-image: url(./../../images/header-display/2.JPG);
      left:36rem;
      border-left:0.5rem solid rgb(198, 180, 22);
      padding-left:1rem;
+    z-index:2;
   }
   .college-text h1 span{
     font-family: serif;
     font-size:2rem;
     color: #e2e1e1;
    word-spacing:0.2rem;
+   z-index:2;
     
   }
   .college-text h1{
     font-family: "Montserrat Medium";
     max-width: 50ch;
-    
     text-align: center;
     text-align: left;
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
     animation: blink 2s infinite;
+    z-index:2;
   }
   @keyframes scale {
     100% {
@@ -583,22 +611,22 @@ background-image: url(./../../images/header-display/2.JPG);
   }
   
   .college-text span:nth-child(1) {
-    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   
   .college-text span:nth-child(2) {
-    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   
   .college-text span:nth-child(3) {
-    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   
   .college-text span:nth-child(4) {
-    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    animation: fade-in 2s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   
-  .college-text span:nth-child(5) {
+  /* .college-text span:nth-child(5) {
     animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
   }
   
@@ -608,7 +636,7 @@ background-image: url(./../../images/header-display/2.JPG);
   
   .college-text span:nth-child(7) {
     animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
-  }
+  } */
   
   
   @keyframes fade-in {
@@ -623,10 +651,29 @@ background-image: url(./../../images/header-display/2.JPG);
 
 
 
+.hide-header-elements{
+    display: none;  
+}  
 
 
 
 
 
+header .header-video-container{
+    width:100%;
+    height:fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+
+
+   header .header-video-container video{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+     
+        
+      }
  
-
