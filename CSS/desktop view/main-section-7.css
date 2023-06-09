@@ -43,6 +43,14 @@
 }
 .video-tour-video{
     flex-basis:60%;
+    position: relative;
+    >img{
+        position: absolute;
+        width: 30%;
+        top: 35%;
+        left: 35%;
+        cursor: pointer;
+    }
   
 }
 .video-tour-logo-1,
