@@ -157,6 +157,17 @@
     font-size:1.2rem;
     
    }
+   #full-screen-news-paper{
+    padding:2rem;
+    
+  }
+  #full-screen-image{
+    padding:0rem;
+    object-fit: contain;
+    border:none;
+  }
+   
+
 }
 
  
@@ -165,15 +176,36 @@
 
 @media only screen and (max-width: 360px)
 {
+  #full-screen-news-paper{
+    padding:2rem;
+    
+  }
+  #full-screen-image{
+    padding:0rem;
+    object-fit: contain;
+    border:none;
+  }
+  .news-heading{
+    padding-top:0;
+  }
+
   .news-heading span{
    
     font-size:4rem;
+   
     
+
+  }
+  .news-container{
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-bottom:2rem;
   }
   .view-more-news-papers a{
 
-    padding:1.2rem 2rem;
-   
+    padding:0.8rem 2rem;
+    border-radius:0.5rem;
     font-size:1rem;
     
    }

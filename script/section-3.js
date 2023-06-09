@@ -107,3 +107,15 @@ window.onload = function () {
 };
 
 
+
+let testiVids = document.querySelectorAll(".testi-min-vids")
+let testiVidPlayBtns = document.querySelectorAll(".testi-vid-play-btn")
+for (let index = 0; index < testiVids.length; index++) {
+
+  testiVidPlayBtns[index].onclick = ()=>{
+    testiVids[index].play()
+    testiVids[index].controls = true
+    testiVidPlayBtns[index].classList.toggle("hide");
+  }
+  
+}

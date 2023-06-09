@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #eee;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  max-width: 100%;
+  margin: auto;
+}
+
+.nav-bar-image-container,
+.nav-links {
+  flex-basis:30%;
+  text-decoration: none;
+  
+}
+.nav-links{
+  text-align: center; 
+}
+
+
+.gallery {
+  display: flex;
+  padding: 2px;
+  transition: 0.3s;
+}
+
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.gallery__link {
+  margin: 2px;
+  overflow: hidden;
+}
+
+.gallery__thumb {
+  position: relative;
+}
+.gallery__image {
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 15px 15px;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: 0.3s;
+}
+
+@media (hover: hover) {
+  #myImg:hover {
+    opacity: 0.7;
+  }
+
+  .gallery:hover .gallery__image {
+    filter: grayscale(1);
+  }
+
+  .gallery__link:hover .gallery__image {
+    filter: grayscale(0);
+  }
+  .gallery__link:hover .gallery__caption {
+    opacity: 1;
+  }
+  .gallery__image:hover {
+    transform: scale(1.1);
+  }
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 200; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  padding-top: 5rem;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.download {
+  position: absolute;
+  top: 4.3rem;
+  left: 25px;
+  font-size: 3rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/* CSS */
+.sports-collection button {
+  --b: 3px; /* border thickness */
+  --s: 0.45em; /* size of the corner */
+  --color: #373b44;
+
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background: conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p) /
+    calc(100% - var(--b) - 2 * var(--_p)) calc(100% - var(--b) - 2 * var(--_p));
+  transition: 0.3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: 0.6em;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.sports-collection button:hover,
+.sports-collection button:focus-visible,
+.sports-collection button:focus {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: 0.05em;
+}
+
+.sports-collection button:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.sports-collection {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 70%;
+  margin: auto;
+  padding: 5rem 1rem;
+  row-gap: 2rem;
+  column-gap: 1.3rem;
+}
+
+.sports-collection h1 {
+  align-self: center;
+  font-size: 3rem;
+  font-weight: 500;
+  background-color: #373b44;
+  color: #ccc;
+  padding: 1rem;
+}
+
+.current-sports-title {
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.current-sports-title::after {
+  content: " gallery";
+}
+
+@media only screen and (max-width: 1150px) {
+  .sports-collection {
+    max-width: 95%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sports-collection {
+    max-width: 100%;
+    font-size: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sports-collection {
+    max-width: 100%;
+    font-size: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 690px) {
+  .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    padding-top: 0;
+  }
+  .nav-links h1 {
+    font-size: 1.5rem;
+  }
+  .sports-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    max-width: 100%;
+    margin: auto;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    max-height: 300px;
+    margin: auto;
+  }
+
+  .sports-collection button {
+    font-size: 10px;
+  }
+}
+
+
+.example7{
+	color: white;
+	font-size: 47px;
+	-webkit-text-stroke: 3px #bbb;
+}
+
+.home-txt{
+  text-transform: uppercase;
+  text-decoration: none;
+ 
+}
+.home-txt h1{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #bbb;
+}

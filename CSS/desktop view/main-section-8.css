@@ -1,19 +1,32 @@
+.section-8{
+    background-image:url(./../../images/peakpx\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
 .achievement-container{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-   
+
+  
     
     
 }
 .achievement-heading h1{
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
     padding:5rem 0rem;
+    color:whitesmoke;
 
 }
 
 .achievement-card{
+    background-color: aliceblue;
     flex-basis: 25%;
     height:fit-content;
     display: flex;
@@ -84,7 +97,7 @@
     padding: 3rem 0rem;
 }
 
-.pure-material-button-contained {
+.pure-material-button-contained{
     position: relative;
     display: inline-block;
     box-sizing: border-box;

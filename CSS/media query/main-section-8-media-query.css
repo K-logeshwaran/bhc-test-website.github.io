@@ -10,7 +10,7 @@
 
     .achievement-card{
         width:80%;
-        margin-bottom:10rem;
+        margin-bottom:3rem;
     }
     .achievement-card img{
         width:100%;
@@ -18,5 +18,41 @@
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         
+    }
+    .achievement-button-container{
+        padding: 0;
+        padding-bottom:2rem;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .achievement-card{
+        width:80%;
+        margin-bottom:2rem;
+    }
+    .achievement-heading h1{
+        font-size: 3rem;
+        text-align: center;
+        padding:4rem 0rem;
+        color:whitesmoke;
+    
+    }
+    .achievement-button-container{
+        padding: 0;
+        padding-bottom:2rem;
+    }
+    
+   
+   
+}
+@media only screen and (max-width:340px){
+
+   
+    .achievement-heading h1{
+        font-size: 2.5rem;
+        text-align: center;
+        padding:2rem 0rem;
+        color:whitesmoke;
+    
     }
 }

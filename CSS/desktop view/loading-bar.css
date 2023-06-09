@@ -7,7 +7,7 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: rgba(7, 7, 7, 0.941);
+    background-color: rgba(7, 7, 7, 0.988);
     z-index: 100000;
 }
 
@@ -17,18 +17,22 @@
     position: relative;
     color: #f2f2f2;
     font-family:serif;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 500;
     z-index: 10;
     animation:blink3 0.2 infinite;
 }
 
 
+#lbcontainer img{
+    width:15rem;
+    height:fit-content;
+}
 
 .loading-bar-counter::after{
     font-family:serif;
     content: "%";
-    font-size: 5rem;            
+    font-size: 3rem;            
 }
 
 .loading-bar-counter-hider {
@@ -49,12 +53,7 @@
     
 }
 
-@keyframes blink3 {
-   
-    from{
-        color: blue;
-    }to{
-       color: brown;
-    }
- 
-}
+
+
+
+

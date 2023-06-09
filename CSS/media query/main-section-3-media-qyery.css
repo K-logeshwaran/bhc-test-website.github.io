@@ -19,6 +19,17 @@
 @media only screen and (max-width:1150px)
 {
    
+    .testimonial-video-1,
+.testimonial-video-2{
+
+    >img{
+        position: absolute;
+        top: 23%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+    }
+}
     
     .testimonial-video-1,
 .testimonial-video-2{
@@ -98,11 +109,30 @@ padding:0rem;
 .testimonial-container .testimonial-left{
     padding:0rem;
 }
+.testimonial-video-1,
+.testimonial-video-2{
+
+    >img{
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+    }
+}
 }
 
 
 
 @media only screen and (max-width:760px) {
+    .testimonial-video-1,
+    .testimonial-video-2{
+        >img{
+            width: 20%;
+            left: 40%;
+            top: 30%;
+        }
+    }
     .testimonial{
         flex-direction: column;
         
@@ -223,7 +253,17 @@ padding:0rem;
     }
     
 }
+@media all and (max-width: 560px){
+    .testimonial-video-1,
+    .testimonial-video-2{
+        >img{
+            width: 20%;
+            left: 40%;
+            top: 30%;
+        }
+    }
 
+}
 @media only screen and (max-width: 500px) {
 
     .testimonial-heading h1{

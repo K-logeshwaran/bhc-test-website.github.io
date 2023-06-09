@@ -1,28 +1,82 @@
 .section-7{
-    background-color: rgba(0, 0, 0, 0.676);
+    background-image: url(./../../images/istockphoto-872254010-1024x1024-transformed.jpeg);
     width:100%;
+    height:fit-content;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    flex-direction: column;
     
    
 }
 
+.college-video-heading{
+    background-color: rgba(0, 0, 0, 0.667);
+    width:100%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+  
+}
+
 .college-video-heading h1{
-    padding-bottom:4rem;
-    font-size:5rem;
+    padding:2rem;
+    font-size:4rem;
+  text-align: center;
+  
     color: aliceblue;
 }
 .college-video-container{
+    
     width:100%;
-    height:fit-content;
+    height:100%;
     display: flex;
     justify-content: center;
-    padding:6rem 0rem;
+    padding:5rem 0rem;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    column-gap:5rem;
+    
 
 }
-.college-video-container video{
-    width: 60%;
+.video-tour-video{
+    flex-basis:60%;
+  
+}
+.video-tour-logo-1,
+.video-tour-logo-2{
+    flex-basis:15%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+.college-video-container .video-tour-logo-1 img{
+
+ width:80%;
+    height:fit-content;
+    filter: drop-shadow(5px 5px 1rem #000000);
+
+
+}
+.college-video-container .video-tour-logo-2 img{
+
+    width:80%;
+       height:fit-content;
+       filter: drop-shadow(5px 5px 1rem #000000);
+   
+   }
+
+.college-video-container .video-tour-video video{
+    width: 100%;
+    
+    border-radius:1rem;
+    border:0.3rem groove rgb(0, 0, 0);
+
+
     height:fit-content;
 
 }

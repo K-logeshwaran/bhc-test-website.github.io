@@ -118,7 +118,7 @@
 
 @media only screen and (max-width: 650px){
     .content-container-1 h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .content-container-3,
@@ -171,7 +171,7 @@
 
 @media only screen and (max-width: 450px){
   .content-container-1 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
   }
 

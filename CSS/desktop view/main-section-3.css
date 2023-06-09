@@ -81,6 +81,14 @@ flex-basis: 25%;
      align-content: center;
     align-items: center;
     object-fit: cover;
+    position: relative;
+    >img{
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        cursor: pointer;
+        width: 30%;
+    }
 }
 
 .testimonial-video-1 video,

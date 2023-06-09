@@ -43,14 +43,14 @@
 .slide-content{
     margin: 0 5rem;
     overflow: hidden;
-    border-radius:2.5rem;
+    border-radius:1rem;
     height:100%;
 }
 .card{
     width:100%;
-    border-radius:2rem;
+    border-radius:1rem;
    border:5px solid rgb(255, 255, 255);
-    background-color:#FFF;
+   
 }
 /* .image-content,
 .card-content{
@@ -84,7 +84,7 @@
     
 } 
 .card-img{
-    border-radius:2rem;
+    border-radius:1rem;
      width:100%;
      object-fit: fill;
      height:100%;
@@ -103,14 +103,14 @@
    
     color: #FFF;
     padding:0.8rem 1.6rem;
-    background-color:#f0d332 ;
-    border-radius:0.6rem;
+    background-color: #FBBC05;
+    border-radius:0.5rem;
     margin:1.4rem;
     cursor: pointer;
     transition: all 0.3 ease;
 }
 .infra-button:hover{
-    background-color:#e4f226;
+    background-color: #fbbd05bf;
 }
 
 .swiper-nav-button{
@@ -163,7 +163,7 @@
     height:100%;
     width:100%;
     background-color: rgba(0, 0, 0, 0.862);
-    border-radius:1.9rem;
+    border-radius:1rem;
     display: none;
     justify-content: center;
     align-items: center;
@@ -284,7 +284,7 @@
 .infra-frame .frame-text h3 span{
     padding-left:10rem;
     font-size:3rem;
-    color: #d3ba2a;
+    color:  #FBBC05;
 }
 .infra-head-2{
    
@@ -369,10 +369,46 @@ font-weight: lighter;
 .swiper-slide{
     width:100%;
     height:60vh;
-      border-radius:2rem;
+      border-radius:1rem;
     background-color: rgb(255, 255, 255);
     
 }
 .swiper-slide-active{
     margin-bottom:4rem;
+}
+.card-image{
+    position: relative;
+}
+.card-image .infra-view-more-image-colour{
+    width:100%;
+    height:100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius:1rem;
+    transition-duration:1s;
+    opacity:0;
+}
+.infra-view-more-image-colour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.infra-view-more-image-colour a{
+    font-size:1.5rem;
+    text-decoration:none;
+    cursor: pointer;
+    padding:0.5rem 2rem;
+    border:0.2rem solid rgb(231, 200, 27);
+    color: #FFF;
+    transition-duration:0.5s;
+    border-radius:0.5rem;
+}
+
+.card-image:hover .infra-view-more-image-colour{
+    opacity:1;
+}
+.infra-view-more-image-colour a:hover{
+    border:0.2rem solid rgba(231, 200, 27, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }

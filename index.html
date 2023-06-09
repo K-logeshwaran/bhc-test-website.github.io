@@ -1,343 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Bishop Heber College Sports</title>
 
-  <!--Title-->
-  <title>Bishop Heber College Sports</title>
-  <!--CSS-->
-  <link rel="stylesheet" href="./CSS/desktop view/loading-bar.css">
-  <link rel="stylesheet" href="./CSS/desktop view/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./CSS/desktop view/home-header.css" />
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-1.css" />
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-1-0.css">
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-1-1.css">
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-2.css" />
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-3.css" />
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-4.css" />
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-5.css">
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-6.css">
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-7.css">
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-8.css">
-  <link rel="stylesheet" href="./CSS/desktop view/main-section-9.css">
-  <link rel="stylesheet" href="./CSS/desktop view/home-footer.css">
-  <!--MEDIA QUERY-->
-  <link rel="stylesheet" href="./CSS/media query/home-header-media-query.css" />
-  <link rel="stylesheet" href="./CSS/media query/main-section-1-media-query.css" />
-  <link rel="stylesheet" href="./CSS/media query/main-section-1-0-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/main-section-1-1-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/main-section-2-media-query.css" />
-  <link rel="stylesheet" href="./CSS/media query/main-section-3-media-qyery.css" />
-  <link rel="stylesheet" href="./CSS/media query/main-section-4-media-query.css" />
-  <link rel="stylesheet" href="./CSS/media query/main-section-5-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/main-section-6-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/main-section-7-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/main-section-8-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/main-section-9-media-query.css">
-  <link rel="stylesheet" href="./CSS/media query/home-footer-median-query.css">
-  <!--Graphics-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <!--Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <link href="//db.onlinewebfonts.com/c/35ce0fb4890286271f9b3baae4a7dda8?family=Longline+Quart+FREE" rel="stylesheet"
-    type="text/css" />
-  <!--JS Links-->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" ></script> -->
-  <script src="https://use.fontawesome.com/1744f3f671.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" ></script> -->
-  <script src="https://use.fontawesome.com/1744f3f671.js"></script>
-  <!--JS Files-->
-  <script src="./script/header.js" defer></script>
-  <script src="./script/section-1-1.js" defer></script>
-  <script src="./script/section-2.js" defer></script>
-  <script src="./script/section-3.js" defer></script>
-  <script src="./script/section-5.js" defer></script>
-  <script src="./script/section-4.js" defer></script>
-  <script src="./script/section-6.js" defer></script>
-  <script src="./script/section-9.js" defer></script>
-  <script src="./script/swiper-bundle.min.js"></script>
-  <script src="./script/loading-bar.js" defer></script>
-
-</head>
-
-<body>
-  <div class="loading-bar-container " id="lbcontainer">
-    <img width="25%" id="loading-bar-clg-logo" src="./images/logos/Physical-edcation-logo.png" alt="">
-    <div class="loading-bar-counter" id="lc">
-      0
-    </div>
-  </div>
-
-  <header>
-
-    <div class="header-container">
-      <div class="nav-bar-image-container">
-        <a href="https://bhc.edu.in/" target="_blank"><img class="college-logo-1" src="./images/logos/bhc-logo.png"
-            alt="College Logo" /></a>
-        <a href="https://bhc.edu.in/" target="_blank"><img class="college-logo-2"
-            src="./images/logos/bhc-logo-media-query.png" alt="College Logo" /></a>
+    <!--ICON-->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logos/bhc-logo.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/desktop view/loading-bar.css">
+    <link rel="stylesheet" href="./CSS/desktop view/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./CSS/desktop view/home-header.css"/>
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-1.css"/>
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-1-0.css">
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-1-1.css">
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-2.css"/>
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-3.css"/>
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-4.css"/>
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-5.css">
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-6.css">
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-7.css">
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-8.css">
+    <link rel="stylesheet" href="./CSS/desktop view/main-section-9.css">
+    <link rel="stylesheet" href="./CSS/desktop view/home-footer.css">
+    <!--MEDIA QUERY-->
+    <link rel="stylesheet" href="./CSS/media query/home-header-media-query.css" />
+    <link rel="stylesheet" href="./CSS/media query/main-section-1-media-query.css" />
+    <link rel="stylesheet" href="./CSS/media query/main-section-1-0-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/main-section-1-1-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/main-section-2-media-query.css" />
+    <link rel="stylesheet" href="./CSS/media query/main-section-3-media-qyery.css" />
+    <link rel="stylesheet" href="./CSS/media query/main-section-4-media-query.css" />
+    <link rel="stylesheet" href="./CSS/media query/main-section-5-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/main-section-6-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/main-section-7-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/main-section-8-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/main-section-9-media-query.css">
+    <link rel="stylesheet" href="./CSS/media query/home-footer-median-query.css">
+    <!--Graphics-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link href="//db.onlinewebfonts.com/c/35ce0fb4890286271f9b3baae4a7dda8?family=Longline+Quart+FREE" rel="stylesheet" type="text/css"/>
+    <!--JS Links-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" ></script> -->
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" ></script> -->
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    <!--JS Files-->
+    <script src="./script/header.js" defer></script>
+    <script src="./script/section-1-1.js" defer></script>
+    <script src="./script/section-2.js" defer></script>
+    <script src="./script/section-3.js" defer></script>
+    <script src="./script/section-5.js" defer></script>
+    <script src="./script/section-4.js" defer></script>
+    <script src="./script/section-6.js" defer></script>
+    <script src="./script/section-9.js" defer></script>
+    <script src="./script/swiper-bundle.min.js"></script>
+    <script src="./script/loading-bar.js" defer></script>
+   
+  </head>
+  <body>
+    <div class="loading-bar-container " id="lbcontainer">
+      <img  id="loading-bar-clg-logo"  src="./images/logos/Physical-edcation-logo.png" alt="">
+      <div class="loading-bar-counter" id="lc">
+        0
       </div>
-      <nav class="header-nav-bar">
-        <ul class="nav-bar-ul" id="show-cross-menu">
-          <div class="nav-menu-bar-icon-2">
-            <div class="menu-bar-icon-container" onclick="myFunction(this)">
-              <div class="cross-bar-1"></div>
-              <div class="cross-bar-2"></div>
-              <div class="cross-bar-3"></div>
+    </div>
+   
+    <header class="header">
+
+      <div class="header-container header-container-bg-light" id="header-container-div">
+        <div class="nav-bar-image-container">
+          <a href="https://bhc.edu.in/" target="_blank"><img class="college-logo-1" src="./images/logos/bhc-logo.png"
+              alt="College Logo" /></a>
+          <a href="https://bhc.edu.in/" target="_blank"><img class="college-logo-2"
+              src="./images/logos/bhc-logo-media-query.png" alt="College Logo" /></a>
+        </div>
+        <nav class="header-nav-bar">
+          <ul class="nav-bar-ul" id="show-cross-menu">
+            <div class="nav-menu-bar-icon-2">
+              <div class="menu-bar-icon-container" onclick="myFunction(this)">
+                <div class="cross-bar-1"></div>
+                <div class="cross-bar-2"></div>
+                <div class="cross-bar-3"></div>
+              </div>
             </div>
-          </div>
-          <div class="nav-menu-bar-button">
-            <div class="center">
-              <a class="nav-menu-bar-button-a" href="#loaction-inquiry"><button id="nav-button" class="nav-bar-btn">
-                  REGISTER ONLINE
-                </button></a>
+            <div class="nav-menu-bar-button">
+              <div class="center">
+                <a class="nav-menu-bar-button-a" href="#loaction-inquiry"><button id="nav-button" class="nav-bar-btn">
+                    REGISTER ONLINE
+                  </button></a>
+              </div>
             </div>
-          </div>
-          <li class="nav-bar-li">
-
-
-            <a class="nav-bar-a" href="#"> HOME </a>
-
-
-          </li>
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#location-about-us"> ABOUT US &nbsp; </a>
-          </li>
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#location-academies">
-              ACADEMIES &nbsp;<i class="fa fa-caret-right arrow-down" aria-hidden="true"></i>
-            </a>
-            <ul class="nav-bar-sub-ul" id="open-academies">
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Cricket </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Hockey </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Archery </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Football </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Archery </a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#location-achievement">
-              ACHIEVEMENTS &nbsp;<i class="fa fa-caret-right arrow-down" aria-hidden="true"></i>
-            </a>
-            <ul class="nav-bar-sub-ul" id="open-achievements">
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#">
-                  &#187;&nbsp;Globel Level
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#">
-                  &#187;&nbsp;National Level
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#">
-                  &#187;&nbsp;State Level
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#">
-                  &#187;&nbsp;Regional Level
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#location-infrastructure">
-              INFRASTRUCTURE &nbsp;<i class="fa fa-caret-right arrow-down" aria-hidden="true"></i>
-            </a>
-            <ul class="nav-bar-sub-ul" id="open-infrastructure">
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-tennis-court-arena">
-                  &#187;&nbsp;Tennis Court Areana
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-cricket-net">
-                  &#187;&nbsp;Cricket Nets
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-volley-ball-court">
-                  &#187;&nbsp;Volleyball Court
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-hockey-field-and-200-cum">
-                  &#187;&nbsp;Hockey Field
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-basket-ball">
-                  &#187;&nbsp;Basket Ball
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-hockey-field-and-200-cum">
-                  &#187;&nbsp;200 Mts Track Field
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-indoor-stadium">
-                  &#187;&nbsp;Indoor Stadium Sports Complex
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-yoga-room">
-                  &#187;&nbsp;Yoga Medition Room
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-BADMINTON-COURT">
-                  &#187;&nbsp;Badminton Court
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-Ball-Badmintion-Court">
-                  &#187;&nbsp;Ball Badminton Court
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-ftb-crc">
-                  &#187;&nbsp;Football Field Cum Cricket Ground
-                </a>
-              </li>
-              <!-- <li class="nav-bar-sub-li">
+            <li class="nav-bar-li">
+  
+  
+              <a class="nav-bar-a" href="#" style="color: red;"> HOME </a>
+  
+  
+            </li>
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#location-about-us"> ABOUT US &nbsp; </a>
+            </li>
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#location-academies">
+                ACADEMIES &nbsp;<i class="fa fa-caret-right arrow-down" aria-hidden="true"></i>
+              </a>
+              <ul class="nav-bar-sub-ul" id="open-academies">
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Cricket </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Hockey </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Archery </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Football </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#"> &#187;&nbsp;Archery </a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#location-achievement">
+                ACHIEVEMENTS &nbsp;<i class="fa fa-caret-right arrow-down" aria-hidden="true"></i>
+              </a>
+              <ul class="nav-bar-sub-ul" id="open-achievements">
+                <li class="nav-bar-sub-li">
                   <a class="nav-bar-sub-a" href="#">
-                    &#187;&nbsp;Cricket Ground
+                    &#187;&nbsp;Globel Level
                   </a>
-                </li> -->
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-Semi-Indoor-Table">
-                  &#187;&nbsp;Semi Indoor Table
-                </a>
-              </li>
-              <li class="nav-bar-sub-li">
-                <a class="nav-bar-sub-a" href="#location-Fitness-Centre">
-                  &#187;&nbsp;Fitness Centre
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#"> GALLERY </a>
-          </li>
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#location-news-and-events"> NEWS AND EVENTS </a>
-          </li>
-          <li class="nav-bar-li">
-            <a class="nav-bar-a" href="#location-footer"> CONTACT US </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="nav-menu-bar-icon-1" id="show-line-menu">
-        <div class="menu-bar-icon-container" onclick="myFunction(this)">
-          <div class="line-bar-1"></div>
-          <div class="line-bar-2"></div>
-          <div class="line-bar-3"></div>
-        </div>
-      </div>
-      <div class="nav-bar-button-container" id="reg-btn">
-        <a href="#loaction-inquiry" style="text-decoration: none;"><button class="nav-bar-btn">REGISTER
-            ONLINE</button></a>
-      </div>
-    </div>
-
-
-    <div class="side-header-image-container">
-      <a id="header-welcome-btn">
-        <div class="side-header-image-1">
-          <div class="color">
-            <p>WELCOME <span id="arrow-header">&#187;&nbsp;</span></p>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#">
+                    &#187;&nbsp;National Level
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#">
+                    &#187;&nbsp;State Level
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#">
+                    &#187;&nbsp;Regional Level
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#location-infrastructure">
+                INFRASTRUCTURE &nbsp;<i class="fa fa-caret-right arrow-down" aria-hidden="true"></i>
+              </a>
+              <ul class="nav-bar-sub-ul" id="open-infrastructure">
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-tennis-court-arena">
+                    &#187;&nbsp;Tennis Court Areana
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-cricket-net">
+                    &#187;&nbsp;Cricket Nets
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-volley-ball-court">
+                    &#187;&nbsp;Volleyball Court
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-hockey-field-and-200-cum">
+                    &#187;&nbsp;Hockey Field
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-basket-ball">
+                    &#187;&nbsp;Basket Ball
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-hockey-field-and-200-cum">
+                    &#187;&nbsp;200 Mts Track Field
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-indoor-stadium">
+                    &#187;&nbsp;Indoor Stadium Sports Complex
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-yoga-room">
+                    &#187;&nbsp;Yoga Medition Room
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-BADMINTON-COURT">
+                    &#187;&nbsp;Badminton Court
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-Ball-Badmintion-Court">
+                    &#187;&nbsp;Ball Badminton Court
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-ftb-crc">
+                    &#187;&nbsp;Football Field Cum Cricket Ground
+                  </a>
+                </li>
+                <!-- <li class="nav-bar-sub-li">
+                    <a class="nav-bar-sub-a" href="#">
+                      &#187;&nbsp;Cricket Ground
+                    </a>
+                  </li> -->
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-Semi-Indoor-Table">
+                    &#187;&nbsp;Semi Indoor Table
+                  </a>
+                </li>
+                <li class="nav-bar-sub-li">
+                  <a class="nav-bar-sub-a" href="#location-Fitness-Centre">
+                    &#187;&nbsp;Fitness Centre
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#"> GALLERY </a>
+            </li>
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#location-news-and-events"> NEWS AND EVENTS </a>
+            </li>
+            <li class="nav-bar-li">
+              <a class="nav-bar-a" href="#location-footer"> CONTACT US </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-menu-bar-icon-1" id="show-line-menu">
+          <div class="menu-bar-icon-container" onclick="myFunction(this)">
+            <div class="line-bar-1"></div>
+            <div class="line-bar-2"></div>
+            <div class="line-bar-3"></div>
           </div>
         </div>
-      </a>
-      <a id="header-infra-btn">
-        <div class="side-header-image-2">
-          <div class="color">
-            <p>INFRASTRUCTURE <span id="arrow-header">&#187;&nbsp;</span></p>
-          </div>
-        </div>
-      </a>
-      <a id="videoTourBtn">
-        <div class="side-header-image-3">
-          <div class="color">
-            <p>VIDEO TOUR <span id="arrow-header">&#187;&nbsp;</span></p>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <div id="header-clg-text">
-      <div class="welcome-text-container" data-aos="zoom-out">
-        <div class="sports-logo-container">
-          <img src="./images/logos/Physical-edcation-logo.png" alt="" />
-        </div>
-        <div class="welcome-to-text">
-          <p>WELCOME TO</p>
-        </div>
-        <div class="waviy">
-          <span style="--i: 1">B</span>
-          <span style="--i: 2">H</span>
-          <span style="--i: 3">C</span>
+        <div class="nav-bar-button-container" id="reg-btn">
+          <a href="#loaction-inquiry" style="text-decoration: none;"><button class="nav-bar-btn">REGISTER
+              ONLINE</button></a>
         </div>
       </div>
-      <div class="college-text">
-        <h1>
-          <span>Nationaly Re-accredited</span>
-          <span>At The 'A' By NAAC </span>
-          <span>With CGPA of</span>
-          <span>3.58 Out Of 4</span>
-          <!-- <p>Nationaly Re-accredited At The 'A' By NAAC With CGPA of 3.58 Out Of 4</p> -->
-        </h1>
+  
+  
+      <div class="side-header-image-container">
+        <a id="header-welcome-btn">
+          <div class="side-header-image-1">
+            <div class="color">
+              <p>WELCOME <span id="arrow-header">&#187;&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+        <a id="header-infra-btn">
+          <div class="side-header-image-2">
+            <div class="color">
+              <p>INFRASTRUCTURE <span id="arrow-header">&#187;&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
+        <a id="videoTourBtn">
+          <div class="side-header-image-3">
+            <div class="color">
+              <p>VIDEO TOUR <span id="arrow-header">&#187;&nbsp;</span></p>
+            </div>
+          </div>
+        </a>
       </div>
-    </div>
-    <div class="header-video-container hide-header-elements" id="header-video-container-elem">
-      <video id="header-video-tag" data-tour-video-src = "./video/Hindi Department -  Testimonials.mp4" data-infra-video-src="./video/Document - Google Chrome 2022-10-29 16-02-38.mp4"  src="./video/Hindi Department -  Testimonials.mp4" loop>
+  
+      <div id="header-clg-text">
+        <div class="welcome-text-container" data-aos="zoom-out">
+          <div class="sports-logo-container">
+            <img src="./images/logos/Physical-edcation-logo.png" alt="" />
+          </div>
+          <div class="welcome-to-text">
+            <p>WELCOME TO</p>
+          </div>
+          <div class="waviy">
+            <span style="--i: 1">B</span>
+            <span style="--i: 2">H</span>
+            <span style="--i: 3">C</span>
+          </div>
+        </div>
+        <div class="college-text">
+          <h1>
+            <span>Nationaly Re-accredited</span>
+            <span>At The 'A' By NAAC </span>
+            <span>With CGPA of</span>
+            <span>3.58 Out Of 4</span>
+            <!-- <p>Nationaly Re-accredited At The 'A' By NAAC With CGPA of 3.58 Out Of 4</p> -->
+          </h1>
+        </div>
+      </div>
+      <div class="header-video-container hide-header-elements" id="header-video-container-elem">
+        <video id="header-video-tag" data-tour-video-src = "./video/Hindi Department -  Testimonials.mp4" data-infra-video-src="./video/Bishop Heber College - Campus Tour 2020.mp4"  src="./video/Bishop Heber College - Campus Tour 2020.mp4" loop>
         
-      </video>
-    </div>
-    <div class="header-background-colour" id="header-background-colour-div">
-
-    </div>
-
-  </header>
-
-  <div id="hd-to-s3-height">
+        </video>
+      </div>
+      <div class="header-background-colour" id="header-background-colour-div">
+  
+      </div>
+      <div id="fixed-contact-us" class="fixed-contact-us-icon-container">
+        <img src="./images/icons/customer-service (1).png" id="fixed-contact-us-img" alt="">
+        <h3 id="hidable-qc" class="hide">quick contacts</h3>
+      </div>
+      <div id="fixed-contact-us-popup-scr" class="fixed-contact-icon-popup-screen hide">
+        <div class="fixed-contact-icon-popup-screen-items">
+          <i class='fab fa-whatsapp-square' style='font-size:36px;color:#52cb5f;'></i>
+          <h3>whatsapp</h3>
+        </div>
+        <div class="fixed-contact-icon-popup-screen-items">
+          <i class="fa fa-envelope" style="font-size:29px;color:#d93e05;text-align: center;"></i>
+          <h3>E-mail</h3>
+        </div>
+        <div class="fixed-contact-icon-popup-screen-items" >
+          <img width="40px" height="40px"  src="./images/logos/bhc-logo.png" alt="">
+          <h3 >BHC</h3>
+        </div>
+       
+      </div>
+    </header>
     <main>
+    <div id="hd-to-s3-height">
+
       <section class="section-1">
         <div class="facultys-container">
-          <div class="department-name-container ">
+          <div class="department-name-container">
             <h1>PHYSICAL EDUCATION FACULTY</h1>
           </div>
           <div class="faculty-details-container">
-            <div class="faculty-1">
+            <div class="faculty-1" data-aos="fade-right"  data-aos-duration="700">
               <img src="./images/staffs/head-of-physical-education.png" alt="Not Found" />
               <div class="faculty-detail-1">
                 <div class="faculty-detail-h2" id="jjj">
@@ -348,13 +365,19 @@
                 </div>
                 <div class="num">
                   <p>
-                    <object data="./images/icons/phone-icon.svg" width="14" height="14"></object>
+                    <object
+                      data="./images/icons/phone-icon.svg"
+                      width="14"
+                      height="14"
+                    ></object>
                     &nbsp;+91 94435 66300
                   </p>
                 </div>
                 <div class="email">
                   <p>
-                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:palraj@bhc.edu.in">palraj@bhc.edu.in</a>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a
+                      href="mailto:palraj@bhc.edu.in"
+                      >palraj@bhc.edu.in</a>
                   </p>
                 </div>
                 <div class="social-container">
@@ -371,24 +394,30 @@
                 </div>
               </div>
             </div>
-            <div class="faculty-2">
-              <img src="./images/staffs/head-of-physical-education.png" alt="Not Found" />
+            <div class="faculty-2" data-aos="fade-left"  data-aos-duration="700">
+              <img style="border:4px solid rgb(255, 255, 255); border-top-left-radius:25px;border-bottom-right-radius:25px;" src="./images/staffs/py.jpg" alt="Not Found" />
               <div class="faculty-detail-2">
                 <div class="faculty-detail-h2">
                   <h2>Dr. A. PALRAJ M.A., M.P.Ed., Ph.D</h2>
                 </div>
                 <div class="position">
-                  <p>Director of Physical Education</p>
+                  <p>Asst. Director of Physical Education</p>
                 </div>
                 <div class="num">
                   <p>
-                    <object data="./images/icons/phone-icon.svg" width="14" height="14"></object>
+                    <object
+                      data="./images/icons/phone-icon.svg"
+                      width="14"
+                      height="14"
+                    ></object>
                     &nbsp; +91 94435 66300
                   </p>
                 </div>
                 <div class="email">
                   <p>
-                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:palraj@bhc.edu.in">palraj@bhc.edu.in</a>
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a
+                      href="mailto:palraj@bhc.edu.in"
+                      >palraj@bhc.edu.in</a>
                   </p>
                 </div>
                 <div class="social-container">
@@ -408,245 +437,185 @@
           </div>
         </div>
       </section>
-
-      <section class="section-1-1" id="location-news-and-events">
+     
+      <section class="section-1-1" id="location-news-and-events"  data-aos="zoom-in" data-aos-duration="700">
         <div class="news-and-events-container">
-
-
-
-          <div class="news-container glowing">
-            <div class="news-heading"><span>NEWS</span>
-              <div class="view-more-news-papers"><a href="/more-news">More News</a>
+  
+          
+          
+          <div class="news-container glowing" >
+            <div class="news-heading"><span>NEWS</span> <div class="view-more-news-papers"><a href="#">More News</a>
+            </div>
+         
+        </div>
+            
+          <div class="news-papers-container" >
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <ul class="news-paper-content">
+              <li class="news-card">
+                <div class="news-img">
+                  <img src="./images/news/Press Clipping 16-17 1_page-0001.jpg" alt="img" draggable="false" onclick="fullscreen1(this.src)"></div>
+               
+              </li>
+              <li class="news-card">
+                <div class="news-img"><img src="./images/news/Press Clipping 16-17 1_page-0001.jpg" alt="img" draggable="false" onclick="fullscreen1(this.src)"></div>
+                
+              </li>
+              <li class="news-card">
+                <div class="news-img"><img src="./images/news/Press Clipping 16-17 1_page-0002.jpg" alt="img" draggable="false" onclick="fullscreen1(this.src)"></div>
+                
+              </li>
+              <li class="news-card">
+                <div class="news-img">
+              
+                  <img src="./images/news/Press Clipping 16-17 1_page-0003.jpg" alt="img" draggable="false" onclick="fullscreen1(this.src)"></div>
+               
+              </li>
+              <li class="news-card">
+                <div class="news-img"><img src="./images/news/Press Clipping 16-17 1_page-0004.jpg" alt="img" draggable="false" onclick="fullscreen1(this.src)"></div>
+               
+              </li>
+              <li class="news-card">
+                <div class="news-img"><img src="./images/news/Press Clipping 16-17 1_page-0005.jpg" alt="img" draggable="false" onclick="fullscreen1(this.src)"></div>
+                
+              </li>
+            </ul>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+          </div>
+  
+          <div id="full-screen-news-paper">
+           <img id="full-screen-image"/>
+           <span id="close-news-paper" onclick="closefullscreen()">&times;</span>
+          </div>
+         </div>
+        
+         
+          
+          <div class="events-container glowing">
+            <div class="events-heading"><h1>EVENTS</h1></div>
+            <div class="events-content">
+            <div class="event-details-container ">
+              <div class="events-details-align marquee" id="marq">
+              <div class="events-details" >
+               
+              <h3>HOCKEY TOURNAMENT</h3>
+              <div class="events-details-row" >
+              <h5>DATE : 18/06/2023</h5>
+              <h5>TIME : 02:00 PM</h5>
+              <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
+            </div>
+              <h6>EVENT DETIALS: 
+              </h6>
+              <ul>
+              <li>Prior to the start of the tournament, participating teams must forward the team’s tournament roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be cleared with the Tournament Official.</li>
+              <li>Teams must register with the Tournament Official prior to playing their first tournament game.</li>
+              <li>All players participating must be the designated tournament age (18+) or turn the designated age by the end of the same calendar year. At the request of the Tournament Committee, participants must show proof of age. Note: Special circumstances with regards to this rule may be reviewed by the Tournament Official when a parent chooses to play with their child and the parent is willing to sign a waiver on behalf of their child.</li>
+              <li>Players must show proof of identity when checking in to the tournament prior to their games.</li>
+              <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the game(s) defaulted. The Tournament Official may take further action against the offending team depending on the severity of the infraction.</li>
+              <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to players and spectators. Players may not participate while under the influence of alcohol or drugs.</li>
+             </ul>
+            </div>
+  
+  
+            <div class="events-details avisos" >
+             <h3>HOCKEY TOURNAMENT</h3>
+             <div class="events-details-row">
+              <h5>DATE : 18/06/2023</h5>
+              <h5>TIME : 02:00 PM</h5>
+              <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
+            </div>
+              <h6>EVENT DETIALS: 
+              </h6>
+              <ul>
+                <li>Prior to the start of the tournament, participating teams must forward the team’s tournament roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be cleared with the Tournament Official.</li>
+                <li>Teams must register with the Tournament Official prior to playing their first tournament game.</li>
+                <li>All players participating must be the designated tournament age (18+) or turn the designated age by the end of the same calendar year. At the request of the Tournament Committee, participants must show proof of age. Note: Special circumstances with regards to this rule may be reviewed by the Tournament Official when a parent chooses to play with their child and the parent is willing to sign a waiver on behalf of their child.</li>
+                <li>Players must show proof of identity when checking in to the tournament prior to their games.</li>
+                <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the game(s) defaulted. The Tournament Official may take further action against the offending team depending on the severity of the infraction.</li>
+                <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to players and spectators. Players may not participate while under the influence of alcohol or drugs.</li>
+               </ul>
               </div>
-
+             <div class="events-details avisos" >
+             <h3>HOCKEY TOURNAMENT</h3>
+             <div class="events-details-row">
+              <h5>DATE : 18/06/2023</h5>
+              <h5>TIME : 02:00 PM</h5>
+              <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
             </div>
-
-            <div class="news-papers-container">
-              <i id="left" class="fa-solid fa-angle-left"></i>
-              <ul class="news-paper-content">
-                <li class="news-card">
-                  <div class="news-img">
-                    <img src="./images/section-background-images/news-paper.jpeg.jpg" alt="img" draggable="false"
-                      onclick="fullscreen1(this.src)">
-                  </div>
-
-                </li>
-                <li class="news-card">
-                  <div class="news-img"><img src="./images/section-background-images/news-paper.jpeg.jpg" alt="img"
-                      draggable="false" onclick="fullscreen1(this.src)"></div>
-
-                </li>
-                <li class="news-card">
-                  <div class="news-img"><img src="./images/section-background-images/news-paper.jpeg.jpg" alt="img"
-                      draggable="false" onclick="fullscreen1(this.src)"></div>
-
-                </li>
-                <li class="news-card">
-                  <div class="news-img">
-
-                    <img src="./images/section-background-images/news-paper.jpeg.jpg" alt="img" draggable="false"
-                      onclick="fullscreen1(this.src)">
-                  </div>
-
-                </li>
-                <li class="news-card">
-                  <div class="news-img"><img src="./images/section-background-images/news-paper.jpeg.jpg" alt="img"
-                      draggable="false" onclick="fullscreen1(this.src)"></div>
-
-                </li>
-                <li class="news-card">
-                  <div class="news-img"><img src="./images/section-background-images/news-paper.jpeg.jpg" alt="img"
-                      draggable="false" onclick="fullscreen1(this.src)"></div>
-
-                </li>
-              </ul>
-              <i id="right" class="fa-solid fa-angle-right"></i>
+             <h6>EVENT DETIALS: 
+             </h6>
+             <ul>
+              <li>Prior to the start of the tournament, participating teams must forward the team’s tournament roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be cleared with the Tournament Official.</li>
+              <li>Teams must register with the Tournament Official prior to playing their first tournament game.</li>
+              <li>All players participating must be the designated tournament age (18+) or turn the designated age by the end of the same calendar year. At the request of the Tournament Committee, participants must show proof of age. Note: Special circumstances with regards to this rule may be reviewed by the Tournament Official when a parent chooses to play with their child and the parent is willing to sign a waiver on behalf of their child.</li>
+              <li>Players must show proof of identity when checking in to the tournament prior to their games.</li>
+              <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the game(s) defaulted. The Tournament Official may take further action against the offending team depending on the severity of the infraction.</li>
+              <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to players and spectators. Players may not participate while under the influence of alcohol or drugs.</li>
+             </ul> 
+             </div>
+            <div class="events-details avisos">
+            <h3>HOCKEY TOURNAMENT</h3>
+            <div class="events-details-row">
+              <h5>DATE : 18/06/2023</h5>
+              <h5>TIME : 02:00 PM</h5>
+              <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
             </div>
-
-            <div id="full-screen-news-paper">
-              <img id="full-screen-image" />
-              <span id="close-news-paper" onclick="closefullscreen()">&times;</span>
+            <h6>EVENT DETIALS: 
+            </h6>
+            <ul>
+              <li>Prior to the start of the tournament, participating teams must forward the team’s tournament roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be cleared with the Tournament Official.</li>
+              <li>Teams must register with the Tournament Official prior to playing their first tournament game.</li>
+              <li>All players participating must be the designated tournament age (18+) or turn the designated age by the end of the same calendar year. At the request of the Tournament Committee, participants must show proof of age. Note: Special circumstances with regards to this rule may be reviewed by the Tournament Official when a parent chooses to play with their child and the parent is willing to sign a waiver on behalf of their child.</li>
+              <li>Players must show proof of identity when checking in to the tournament prior to their games.</li>
+              <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the game(s) defaulted. The Tournament Official may take further action against the offending team depending on the severity of the infraction.</li>
+              <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to players and spectators. Players may not participate while under the influence of alcohol or drugs.</li>
+             </ul>  
+            </div>
+   
+            </div>
             </div>
           </div>
-
-
-
-          <div class="events-container glowing">
-            <div class="events-heading">
-              <h1>EVENTS</h1>
-            </div>
-            <div class="events-content">
-              <div class="event-details-container ">
-                <div class="events-details-align marquee" id="marq">
-                  <div class="events-details">
-
-                    <h3>HOCKEY TOURNAMENT</h3>
-                    <div class="events-details-row">
-                      <h5>DATE : 18/06/2023</h5>
-                      <h5>TIME : 02:00 PM</h5>
-                      <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
-                    </div>
-                    <h6>EVENT DETIALS:
-                    </h6>
-                    <ul>
-                      <li>Prior to the start of the tournament, participating teams must forward the team’s tournament
-                        roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be
-                        cleared with the Tournament Official.</li>
-                      <li>Teams must register with the Tournament Official prior to playing their first tournament game.
-                      </li>
-                      <li>All players participating must be the designated tournament age (18+) or turn the designated
-                        age by the end of the same calendar year. At the request of the Tournament Committee,
-                        participants must show proof of age. Note: Special circumstances with regards to this rule may
-                        be reviewed by the Tournament Official when a parent chooses to play with their child and the
-                        parent is willing to sign a waiver on behalf of their child.</li>
-                      <li>Players must show proof of identity when checking in to the tournament prior to their games.
-                      </li>
-                      <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the
-                        game(s) defaulted. The Tournament Official may take further action against the offending team
-                        depending on the severity of the infraction.</li>
-                      <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to
-                        players and spectators. Players may not participate while under the influence of alcohol or
-                        drugs.</li>
-                    </ul>
-                  </div>
-
-
-                  <div class="events-details avisos">
-                    <h3>HOCKEY TOURNAMENT</h3>
-                    <div class="events-details-row">
-                      <h5>DATE : 18/06/2023</h5>
-                      <h5>TIME : 02:00 PM</h5>
-                      <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
-                    </div>
-                    <h6>EVENT DETIALS:
-                    </h6>
-                    <ul>
-                      <li>Prior to the start of the tournament, participating teams must forward the team’s tournament
-                        roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be
-                        cleared with the Tournament Official.</li>
-                      <li>Teams must register with the Tournament Official prior to playing their first tournament game.
-                      </li>
-                      <li>All players participating must be the designated tournament age (18+) or turn the designated
-                        age by the end of the same calendar year. At the request of the Tournament Committee,
-                        participants must show proof of age. Note: Special circumstances with regards to this rule may
-                        be reviewed by the Tournament Official when a parent chooses to play with their child and the
-                        parent is willing to sign a waiver on behalf of their child.</li>
-                      <li>Players must show proof of identity when checking in to the tournament prior to their games.
-                      </li>
-                      <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the
-                        game(s) defaulted. The Tournament Official may take further action against the offending team
-                        depending on the severity of the infraction.</li>
-                      <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to
-                        players and spectators. Players may not participate while under the influence of alcohol or
-                        drugs.</li>
-                    </ul>
-                  </div>
-                  <div class="events-details avisos">
-                    <h3>HOCKEY TOURNAMENT</h3>
-                    <div class="events-details-row">
-                      <h5>DATE : 18/06/2023</h5>
-                      <h5>TIME : 02:00 PM</h5>
-                      <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
-                    </div>
-                    <h6>EVENT DETIALS:
-                    </h6>
-                    <ul>
-                      <li>Prior to the start of the tournament, participating teams must forward the team’s tournament
-                        roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be
-                        cleared with the Tournament Official.</li>
-                      <li>Teams must register with the Tournament Official prior to playing their first tournament game.
-                      </li>
-                      <li>All players participating must be the designated tournament age (18+) or turn the designated
-                        age by the end of the same calendar year. At the request of the Tournament Committee,
-                        participants must show proof of age. Note: Special circumstances with regards to this rule may
-                        be reviewed by the Tournament Official when a parent chooses to play with their child and the
-                        parent is willing to sign a waiver on behalf of their child.</li>
-                      <li>Players must show proof of identity when checking in to the tournament prior to their games.
-                      </li>
-                      <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the
-                        game(s) defaulted. The Tournament Official may take further action against the offending team
-                        depending on the severity of the infraction.</li>
-                      <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to
-                        players and spectators. Players may not participate while under the influence of alcohol or
-                        drugs.</li>
-                    </ul>
-                  </div>
-                  <div class="events-details avisos">
-                    <h3>HOCKEY TOURNAMENT</h3>
-                    <div class="events-details-row">
-                      <h5>DATE : 18/06/2023</h5>
-                      <h5>TIME : 02:00 PM</h5>
-                      <h5>LOCATION : BISHOP HEBER COLLEGE</h5>
-                    </div>
-                    <h6>EVENT DETIALS:
-                    </h6>
-                    <ul>
-                      <li>Prior to the start of the tournament, participating teams must forward the team’s tournament
-                        roster to the Tournament Offical. Any changes to the roster after the schedule is drawn must be
-                        cleared with the Tournament Official.</li>
-                      <li>Teams must register with the Tournament Official prior to playing their first tournament game.
-                      </li>
-                      <li>All players participating must be the designated tournament age (18+) or turn the designated
-                        age by the end of the same calendar year. At the request of the Tournament Committee,
-                        participants must show proof of age. Note: Special circumstances with regards to this rule may
-                        be reviewed by the Tournament Official when a parent chooses to play with their child and the
-                        parent is willing to sign a waiver on behalf of their child.</li>
-                      <li>Players must show proof of identity when checking in to the tournament prior to their games.
-                      </li>
-                      <li>A team who is found to have used an ineligible player in a tournament game(s) shall have the
-                        game(s) defaulted. The Tournament Official may take further action against the offending team
-                        depending on the severity of the infraction.</li>
-                      <li>Alcohol is not permitted in the City of Vancouver Arena facilities. This rule applies to
-                        players and spectators. Players may not participate while under the influence of alcohol or
-                        drugs.</li>
-                    </ul>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-
+  
+  
           </div>
         </div>
       </section>
-
-
-
+      
+     
+     
       <section class="section-2" id="location-about-us">
         <div class="since-container">
           <div class="bg">
             <div class="content-container-1">
               <h1>DEPARTMENT OF PHYSICAL EDUCATION SINCE 1966</h1>
             </div>
-
+         
 
             <div class="content-container-2">
-
-              <div class="content-1">
+              
+              <div class="content-1"  data-aos="fade-right"  data-aos-duration="700">
                 <h2>WHY BHC SPORTS <span id="ss">&#187;</span></h2>
                 <p>
-                  The department being the forerunner in the field of sports and games has
-                  produced many outstanding Sports personalities and had brought laurels to
-                  the nation and the state in Nation and International competitions.The College
-                  has an impressive fully air-conditioned Multipurpose Stadium, Fitness Center,Flood
-                  lit Basketball and Volley Ball court . The Department organizes various State Level
-                  Tournaments and has bagged various trophies in almost all the events for more than a
-                  decade of years. The Department holds several academies to oversee promotion of sports
-                  and games among youth and children. It also trains especially abled person for Paralympics .
+                 The department being the forerunner in the field of sports and games has
+                 produced many outstanding Sports personalities and had brought laurels to 
+                 the nation and the state in Nation and International competitions.The College 
+                 has an impressive fully air-conditioned Multipurpose Stadium, Fitness Center,Flood 
+                 lit Basketball and Volley Ball court . The Department organizes various State Level 
+                 Tournaments and has bagged various trophies in almost all the events for more than a 
+                 decade of years. The Department holds several academies to oversee promotion of sports 
+                 and games among youth and children. It also trains especially abled person for Paralympics .
 
-                  <a href="#show-vision" onclick="Myfunctionrm(this)">
-                    Read More<span id="se"><span class="se se-dot-1">.</span><span class="se se-dot-2">.</span><span
-                        class=" se se-dot-3">.</span></span></a>
+                <a href="#show-vision" onclick="Myfunctionrm(this)">
+                    Read More<span id="se"><span class="se se-dot-1">.</span><span class="se se-dot-2">.</span><span class=" se se-dot-3">.</span></span></a>
                 </p>
               </div>
-              <div class="content-2" id="logo-testi">
+              <div class="content-2" id="logo-testi" data-aos="fade-left"  data-aos-duration="700">
                 <img src="./images/logos/Physical-edcation-logo.png" alt="" />
               </div>
             </div>
 
             <div class="content-container-3" id="show-vision">
-              <div class="content-1">
+              <div class="content-1"  data-aos="fade-right"  data-aos-duration="700">
                 <h2>VISION&nbsp;<span id="ss">&#187;</span></h2>
                 <p>
                   To impart an inclusive Physical Education to foster
@@ -656,7 +625,7 @@
                 </p>
               </div>
 
-              <div class="content-2">
+              <div class="content-2" data-aos="fade-left"  data-aos-duration="700">
                 <h2>MISSION&nbsp;<span id="ss">&#187;</span></h2>
                 <p>
                   To improve the Holistic development of the youth and hone the
@@ -670,7 +639,9 @@
               <div class="content-container-4">
                 <div class="content-1">
                   <h2>
-                    AWARD FOR BEST OUT GOING SPORTSMANS&nbsp;<span id="ss">&#187;</span>
+                    AWARD FOR BEST OUT GOING SPORTSMANS&nbsp;<span id="ss"
+                      >&#187;</span
+                    >
                   </h2>
                   <p>
                     Awards for best outgoing sportsman one in U.G. and one in
@@ -689,7 +660,9 @@
               <div class="content-container-5">
                 <div class="content-1">
                   <h2>
-                    ANNUAL SPORTS FELICITATION DAY&nbsp;<span id="ss">&#187;</span>
+                    ANNUAL SPORTS FELICITATION DAY&nbsp;<span id="ss"
+                      >&#187;</span
+                    >
                   </h2>
                   <p>
                     In order to appreciate and honor outstanding achievements in
@@ -771,11 +744,11 @@
                 <div class="content-2"></div>
               </div>
             </div>
-            <div class="visit-container">
+            <div class="visit-container"  data-aos="zoom-in" data-aos-duration="700">
               <h1 class="visit-heading">VISIT</h1>
-
-
-
+              
+                
+              
               <nav>
                 <ul>
                   <a href="#location-sports-tour">
@@ -789,8 +762,8 @@
                   </a>
                   <a onclick="toggleSpBulContainer()">
                     <li>SPORTS BULLITION</li>
-
-
+                   
+                    
                   </a>
                   <a href="#location-footer">
                     <li>CONTACT US</li>
@@ -807,22 +780,16 @@
                       <div id="close-sports-bullet-2" onclick="toggleSpBulContainer()">&times;</div>
                     </div>
                     <ul>
-                      <li data-iframe-source="./flipbook-pdf/flipbook-1.html" id="year-2016-2017-pdf"
-                        onclick=" changeIframeSrc(this)"><a>2016 - 2017</a>
+                      <li data-iframe-source="./flipbook-pdf/flipbook-1.html" id="year-2016-2017-pdf" onclick=" changeIframeSrc(this)"><a>2016 - 2017</a>
 
                       </li>
-                      <li data-iframe-source="./flipbook-pdf/flipbook-2.html" id="year-2016-2017-pdf"
-                        onclick=" changeIframeSrc(this)">
+                      <li  data-iframe-source="./flipbook-pdf/flipbook-2.html" id="year-2016-2017-pdf" onclick=" changeIframeSrc(this)">
                         <a>2017 - 2018</a>
                       </li>
-                      <li data-iframe-source="./flipbook-pdf/flipbook-3.html" id="year-2016-2017-pdf"
-                        onclick=" changeIframeSrc(this)"><a>2018 - 2019</a></li>
-                      <li data-iframe-source="./flipbook-pdf/flipbook-4.html" id="year-2016-2017-pdf"
-                        onclick=" changeIframeSrc(this)"><a>2019 - 2020</a></li>
-                      <li data-iframe-source="./flipbook-pdf/flipbook-5.html" id="year-2016-2017-pdf"
-                        onclick=" changeIframeSrc(this)"><a>2021 - 2022</a></li>
-                      <li data-iframe-source="./flipbook-pdf/flipbook-6.html" id="year-2016-2017-pdf"
-                        onclick=" changeIframeSrc(this)"><a>2022 - 2023</a></li>
+                      <li  data-iframe-source="./flipbook-pdf/flipbook-3.html" id="year-2016-2017-pdf" onclick=" changeIframeSrc(this)"><a>2018 - 2019</a></li>
+                      <li  data-iframe-source="./flipbook-pdf/flipbook-4.html" id="year-2016-2017-pdf" onclick=" changeIframeSrc(this)"><a>2019 - 2020</a></li>
+                      <li  data-iframe-source="./flipbook-pdf/flipbook-5.html" id="year-2016-2017-pdf" onclick=" changeIframeSrc(this)"><a>2021 - 2022</a></li>
+                      <li  data-iframe-source="./flipbook-pdf/flipbook-6.html" id="year-2016-2017-pdf" onclick=" changeIframeSrc(this)"><a>2022 - 2023</a></li>
                     </ul>
                   </div>
                   <div class="sports-bullet-pdf">
@@ -833,13 +800,13 @@
                   </div>
                 </div>
               </div>
-
+              
             </div>
-
+          
           </div>
-
+          
         </div>
-
+        
       </section>
 
       <section class="section-3">
@@ -858,16 +825,18 @@
           </div>
 
           <div class="testimonial">
-            <div class="testimonial-left">
+            <div class="testimonial-left" data-aos="fade-right"  data-aos-duration="700">
               <div class="testimonial-video-1">
-                <video src="./video/Hindi Department -  Testimonials.mp4" width="260" height="200" controls></video>
+                <video class="testi-min-vids" src="./video/1.mp4" width="260" height="200"></video>
+                <img  class="testi-vid-play-btn" src="./images/icons/play-button-28270.png" alt="">
                 <div class="testimonial-about-player">
                   <h3>student-name</h3>
                   <h3>student-about-college-topic</h3>
                 </div>
               </div>
               <div class="testimonial-video-2">
-                <video src="./video/Hindi Department -  Testimonials.mp4" width="260" height="200" controls></video>
+                <video class="testi-min-vids" src="./video/2.mp4" width="260" height="200"></video>
+                <img  class="testi-vid-play-btn" src="./images/icons/play-button-28270.png" alt="">
                 <div class="testimonial-about-player">
                   <h3>student-name</h3>
                   <h3>student-about-college-topic</h3>
@@ -875,7 +844,7 @@
               </div>
             </div>
 
-            <div class="testimonial-center">
+            <div class="testimonial-center"  data-aos="zoom-in" data-aos-duration="700">
               <section id="testim" class="testim ggg">
                 <div class="wrap">
                   <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
@@ -943,16 +912,18 @@
               </section>
             </div>
 
-            <div class="testimonial-right">
+            <div class="testimonial-right" data-aos="fade-left"  data-aos-duration="700">
               <div class="testimonial-video-1">
-                <video src="./video/Hindi Department -  Testimonials.mp4" width="280" height="200" controls></video>
+                <video class="testi-min-vids" src="./video/3.mp4" width="280" height="200" ></video>
+                <img  class="testi-vid-play-btn" src="./images/icons/play-button-28270.png" alt="">
                 <div class="testimonial-about-player">
                   <h3>student-name</h3>
                   <h3>student-about-college-topic</h3>
                 </div>
               </div>
               <div class="testimonial-video-2">
-                <video src="./video/Hindi Department -  Testimonials.mp4" width="280" height="200" controls></video>
+                <video class="testi-min-vids" src="./video/4.mp4" width="280" height="200" ></video>
+                <img  class="testi-vid-play-btn" src="./images/icons/play-button-28270.png" alt="">
                 <div class="testimonial-about-player">
                   <h3>student-name</h3>
                   <h3>student-about-college-topic</h3>
@@ -962,65 +933,67 @@
           </div>
         </div>
       </section>
-  </div>
-
-  <section class="section-4" id="section-4">
-
-    <h1 class="heading-football">QUICK FACTS</h1>
-
-    <div class="graphics-container-2">
-
-      <img class="football-player-image" src="./images/section-background-images/football-player.png" alt="">
-
-
-      <div class="side-number-football left-to-right-football" id="football-number-1">
-        <h1 id="number-anime">+</h1>
-        <h3>Participants so far</h3>
-      </div>
-      <div class="side-number-football football-mid right-to-left-football" id="football-number-2">
-        <h1 id="number-anime-2">+</h1>
-        <h3>Medals Won</h3>
-      </div>
-      <div class="side-number-football left-to-right-football" id="football-number-3">
-        <h1 id="number-anime-3">+</h1>
-        <h3>Trained staffs</h3>
-      </div>
-      <div class="top-number-football" id="football-number-4">
-        <h1 id="number-anime-4">4.5+</h1>
-        <h3>Rating</h3>
-      </div>
-      <div class="ball-conatoner" id="ball-image">
-        <img width="11.5%" src="./images/section-background-images/pngegg (2).png" style="opacity: 1;" alt="">
-      </div>
-
-
     </div>
+     
+    <section class="section-4" id="section-4">
 
-      
-  </section>
+      <h1 class="heading-football">QUICK FACTS</h1>
+  
+      <div class="graphics-container-2">
+  
+        <img class="football-player-image" src="./images/section-background-images/football-player.png" alt="">
+  
+  
+        <div class="side-number-football left-to-right-football" id="football-number-1">
+          <h1 id="number-anime">+</h1>
+          <h3>Participants so far</h3>
+        </div>
+        <div class="side-number-football football-mid right-to-left-football" id="football-number-2">
+          <h1 id="number-anime-2">+</h1>
+          <h3>Medals Won</h3>
+        </div>
+        <div class="side-number-football left-to-right-football" id="football-number-3">
+          <h1 id="number-anime-3">+</h1>
+          <h3>Trained staffs</h3>
+        </div>
+        <div class="top-number-football right-to-left-football" id="football-number-4">
+          <h1 id="number-anime-4">4.5+</h1>
+          <h3>Rating</h3>
+        </div>
+        <div class="ball-conatoner" id="ball-image">
+          <img src="./images/section-background-images/pngegg (2).png" style="opacity: 1;" alt="">
+        </div>
+  
+  
+      </div>
+  
+        
+    </section>
+  
+    
 
 
 
-
-
-  <section class="section-5" id="location-infrastructure">
+  <section class="section-5" id="location-infrastructure" >
     <div class="infrastructure-container">
       <div class="infrastructur-heading">
         <h1>INFRASTRUCTURE</h1>
       </div>
-      <div class="slide-container swiper">
+      <div class="slide-container swiper" >
         <div class="slide-content">
-          <div class="card-wrapper swiper-wrapper">
-            <div class="card swiper-slide " id="location-tennis-court-arena">
+          <div class="card-wrapper swiper-wrapper"  data-aos="zoom-in" data-aos-duration="700">
+            <div class="card swiper-slide " id="location-tennis-court-arena" >
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/Indoor stadium Badminton court-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
                   <h2 class="infra-name">TENNIS COURT ARENA<br>&nbsp;</h2>
 
                   <button class="infra-button" id="show-infra-button">More Detials</button>
+                
                 </div>
 
                 <div class="infra-frame show-frame-2" id="show-frame">
@@ -1056,6 +1029,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/BRN_1055-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1097,9 +1071,11 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/header-display/1.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
+                  
                   <h2 class="infra-name">VOLLEY BALL COURT<br>(FLOODLIT)</h2>
 
                   <button class="infra-button" id="show-infra-button-3">More Detials</button>
@@ -1141,6 +1117,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/200 mts Track and field  08-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1184,6 +1161,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/sssssss.jpgaaa-min.jpg" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1227,6 +1205,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/header-display/1.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1267,6 +1246,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/BRN_0304-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1309,6 +1289,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/Basketball court 10-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1352,6 +1333,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/BRN_8027-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1395,6 +1377,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/BRN_8027-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1437,6 +1420,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/BRN_8027-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1479,6 +1463,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/BRN_8027-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1521,6 +1506,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/Football field 05-min.jpg" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1563,6 +1549,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/Indoor stadium Badminton court-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1605,6 +1592,7 @@
               <div class="image-content">
 
                 <div class="card-image">
+                  <div class="infra-view-more-image-colour"><a href="#">More Images</a></div>
                   <img src="./images/infra/Fitness center 01-min.JPG" alt="" class="card-img">
                 </div>
                 <div class="card-content">
@@ -1655,112 +1643,157 @@
 
   </section>
 
-  <section class="section-1-0" id="location-coaches">
-    <div class="heading-staffs">
-      <h1>COACHES</h1>
-    </div>
-    <div class="staffs-container">
+   <section class="section-1-0" id="location-coaches" >
+    <div class="heading-staffs"><h1>COACHES</h1></div>
+    <div class="staffs-container"  data-aos="zoom-in" data-aos-duration="700">
 
       <div class="staff-items">
         <div class="staff-details">
           <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+             
             <img src="./images/staffs/staff-1-removebg-preview.png" alt="">
             <div class="staff-details-2">
               <h1>MOHAMED ASLAM</h1>
               <p>GYM TRAINER</p>
-            </div>
-
+              </div>
+            
           </div>
-
+          
         </div>
-
-
+        
+        
       </div>
       <div class="staff-items">
         <div class="staff-details">
-          <div class="colour-staff"><img src="./images/staffs/staff-2-removebg-preview.png" alt="">
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-2-removebg-preview.png" alt="">
             <div class="staff-details-2">
               <h1>MOHAMED ASLAM</h1>
               <p>GYM TRAINER</p>
+              </div>
             </div>
-          </div>
         </div>
-
+       
       </div>
       <div class="staff-items">
         <div class="staff-details">
-          <div class="colour-staff"><img src="./images/staffs/staff-3-removebg-preview.png" alt="">
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-3-removebg-preview.png" alt="">
             <div class="staff-details-2">
               <h1>MOHAMED ASLAM</h1>
               <p>GYM TRAINER</p>
-            </div>
-          </div>
+              </div></div>
         </div>
-
+        
       </div>
 
-
+   
       <div class="staff-items">
         <div class="staff-details">
-          <div class="colour-staff"><img src="./images/staffs/staff-4-removebg-preview.png" alt="">
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-4-removebg-preview.png" alt="">
             <div class="staff-details-2">
               <h1>MOHAMED ASLAM</h1>
               <p>GYM TRAINER</p>
+              </div>
             </div>
-          </div>
         </div>
-
-      </div>
-      <div class="staff-items">
-        <div class="staff-details">
-          <div class="colour-staff"><img src="./images/staffs/staff-5-removebg-preview.png" alt="">
-            <div class="staff-details-2">
-              <h1>MOHAMED ASLAM</h1>
-              <p>GYM TRAINER</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-      <div class="staff-items">
-        <div class="staff-details">
-
-          <div class="colour-staff"><img src="./images/staffs/staff-6-2-png.png" alt="">
-            <div class="staff-details-2">
-              <h1>MOHAMED ASLAM</h1>
-              <p>GYM TRAINER</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div class="staff-items">
-        <div class="staff-details">
-          <div class="colour-staff"><img src="./images/staffs/staff-7-removebg-preview.png" alt="">
-            <div class="staff-details-2">
-              <h1>MOHAMED ASLAM</h1>
-              <p>GYM TRAINER</p>
-            </div>
-          </div>
-
-        </div>
-
+        
       </div>
       <div class="staff-items">
         <div class="staff-details">
-          <div class="colour-staff"><img src="./images/staffs/staff-1-removebg-preview.png" alt="">
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-5-removebg-preview.png" alt="">
             <div class="staff-details-2">
               <h1>MOHAMED ASLAM</h1>
               <p>GYM TRAINER</p>
+              </div>
             </div>
-          </div>
-
+  
         </div>
+        
+      </div>
+      <div class="staff-items">
+        <div class="staff-details">
 
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-6-2-png.png" alt="">
+            <div class="staff-details-2">
+              <h1>MOHAMED ASLAM</h1>
+              <p>GYM TRAINER</p>
+              </div>
+            </div>
+          
+        </div>
+        
+      </div>
+
+    
+      <div class="staff-items">
+        <div class="staff-details">
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-7-removebg-preview.png" alt="">
+            <div class="staff-details-2">
+              <h1>MOHAMED ASLAM</h1>
+              <p>GYM TRAINER</p>
+              </div>
+            </div>
+      
+        </div>
+       
+      </div>
+      <div class="staff-items">
+        <div class="staff-details">
+          <div class="colour-staff">
+            <div class="staff-details-2-show">
+              
+              <p>STAFF DETAILS</p> 
+              <p><span class="staff-down">&#187;</span></p>
+            </div>
+            <img src="./images/staffs/staff-1-removebg-preview.png" alt="">
+            <div class="staff-details-2">
+              <h1>MOHAMED ASLAM</h1>
+              <p>GYM TRAINER</p>
+              </div>
+            </div>
+  
+        </div>
+        
       </div>
       <!-- <div class="staff-items">
         <div class="staff-details">
@@ -1782,220 +1815,215 @@
 
 
 
-  <section class="section-6" id="location-academies">
-    <div class="sports-name-container">
+     <section class="section-6" id="location-academies" >
+    <div class="sports-name-container" >
       <div class="in-door-container">
         <h1 class="in-door-title" id="in-title">INDOOR SPORTS</h1>
         <div class="grid-container-1">
-          <div class="grid-item">
-            <div class="sports-card" id="hhh">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>TABLE TENNIS</h2>
-              <div id="over"></div>
+            <div class="grid-item">
+                <div class="sports-card">
+                    <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/tabel tennis.jpeg" alt="">
+                    <h2>TABLE TENNIS</h2>
+                   
+                </div>
             </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>BADMINTON</h2>
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/badminton-2.jpg" alt="">
+                    <h2>BADMINTON</h2>
+                </div>
             </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>CHESS</h2>
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/chess.jpg" alt="">
+                    <h2>CHESS</h2>
+                </div>
             </div>
-          </div>
-
-
+           
+            
         </div>
-      </div>
-
-
-      <div class="out-door-container">
+    </div>
+   
+   
+    <div class="out-door-container">
         <h1 class="out-door-title" id="out-title">OUTDOOR SPORTS</h1>
         <div class="grid-container-2">
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/cricket.jpg" alt="">
+                    <h2>CRICKET</h2>
+                    
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/volleyball.jpg" alt="">
+                    <h2>BASKETBALL</h2>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/football.jpg" alt="">
+                    <h2>FOOTBALL</h2>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/sum-volleyball.jpg" alt="">
+                    <h2>VOLLEYBALL</h2>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/hockey.jpg" alt="">
+                    <h2>HOCKEY</h2>
+                </div>
+            </div>
+            <div class="grid-item">
+              <div class="sports-card">
+                <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                  <img src="./images/sports-card/badmin.jpg" alt="">
+                  <h2>TENNIS</h2>
+              </div>
+          </div>
+            
+        </div>
+        </div>
+        <div class="summer-container">
+            <h1 class="summer-title" id="summer-title">SUMMER CAMP</h1>
+            <div class="grid-container-3">
+                <div class="grid-item">
+                    <div class="sports-card">
+                      <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                        <img src="./images/sports-card/sum-football.jpg" alt="">
+                        <h2>FOOTBALL</h2>
+                    </div>
+                </div>
+                <div class="grid-item">
+                  <div class="sports-card">
+                    <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                      <img src="./images/sports-card/sum-basketball.jpeg" alt="">
+                      <h2>BASKETBALL</h2>
+                  </div>
+              </div>
+              <div class="grid-item">
+                <div class="sports-card">
+                  <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                    <img src="./images/sports-card/sum-badmin.jpg" alt="">
+                    <h2>BADMINTON</h2>
+                </div>
+            </div>
+            <div class="grid-item">
+              <div class="sports-card">
+                <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                  <img src="./images/sports-card/sum-cricket.jpg" alt="">
+                  <h2>CRICKET</h2>
+              </div>
+          </div>
           <div class="grid-item">
             <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>CRICKET</h2>
+              <div class="colour-gird-sports"><a href="#">View Images</a></div>
+                <img src="./images/sports-card/sum-chess.jpg" alt="">
+                <h2>CHESS</h2>
+            </div>
+        </div>
+        
 
             </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>BASKETBALL</h2>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>FOOTBALL</h2>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>VOLLEYBALL</h2>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>HOCKEY</h2>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>TENNIS</h2>
-            </div>
-          </div>
+        </div>
 
+      </div>
+     </section>
+
+     
+
+
+   
+     <section class="section-7" id="location-sports-tour" data-aos="zoom-out-up" data-aos-duration="700">
+
+      <div class="college-video-heading"><h1>COLLEGE TOUR</h1></div>
+
+
+      <div class="college-video-container">
+     <div class="video-tour-logo-1">
+        <img src="./images/logos/bhc-logo.png" alt="">
+      </div>
+      <div class="video-tour-video">
+        <video src="./video/Bishop Heber College - Campus Tour 2020.mp4" 
+     
+        controls></video> 
+      </div>
+          <div class="video-tour-logo-2">
+          <img src="./images/logos/Physical-edcation-logo.png" alt="">
         </div>
       </div>
-      <div class="summer-container">
-        <h1 class="summer-title" id="summer-title">SUMMER CAMP</h1>
-        <div class="grid-container-3">
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>FOOTBALL</h2>
-            </div>
+     </section>
+
+     <section class="section-8" id="location-achievement" data-aos="zoom-out-up" data-aos-duration="700">
+      <div class="achievement-heading">
+        <h1># ACHIEVEMENTS</h1>
+     </div>
+      <div class="achievement-container">
+        
+          <div class="achievement-card">
+              <img src="./images/ach/image (10).png" alt="">
+
+              <div class="about-achievement">
+                  <a href="">
+                      <h1>Mr. Aayush Jain Won Bronze Medal at National Shooting Championship</h1>
+                  </a>
+                  <h5>October 9, 2022</h5>
+                  <div class="achievement-description">
+                     
+
+                  </div>
+              </div>
           </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>BASKETBALL</h2>
-            </div>
+          
+          <div class="achievement-card">
+              <img src="./images/ach/image (2).png" alt="">
+
+              <div class="about-achievement">
+                  <a href="">
+                      <h1>Triple jump silver for Selva Prabhu in World <br>Under-20 Championships in Colombia</h1>
+                  </a>
+                  <h5>Aug 06, 2022</h5>
+                  <div class="achievement-description">
+                    🥈Sliver Medal (men's Triple Jump)
+                    💫 Performance- 16.15m
+
+                  </div>
+              </div>
           </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>BADMINTON</h2>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>CRICKET</h2>
-            </div>
-          </div>
-          <div class="grid-item">
-            <div class="sports-card">
-              <img src="./images/section-background-images/boxer.jpg" alt="">
-              <h2>CHESS</h2>
-            </div>
+          <div class="achievement-card">
+              <img src="./images/ach/image (3).png" alt="">
+
+              <div class="about-achievement">
+                  <a href="">
+                      <h1>Mr. Aayush Jain Won Bronze Medal at National Shooting Championship</h1>
+                  </a>
+                  <h5>October 9, 2022</h5>
+                  <p class="achievement-description">
+                     
+
+                  </p>
+              </div>
           </div>
 
-
-        </div>
+         
       </div>
-
-    </div>
-  </section>
-
-
-
-
-
-  <section class="section-7" id="location-sports-tour">
-
-
-    <div class="college-video-container">
-
-      <div class="college-video-heading">
-        <h1>COLLEGE TOUR</h1>
+      <div class="achievement-button-container">
+        <button class="pure-material-button-contained" onclick="sound()">view more</button>
       </div>
-      <video src="./video/Hindi Department -  Testimonials.mp4" controls></video>
-
-    </div>
-  </section>
-
-  <section class="section-8" id="location-achievement">
-    <div class="achievement-heading">
-      <h1>ACHIEVEMENTS</h1>
-    </div>
-    <div class="achievement-container">
-
-      <div class="achievement-card">
-        <img src="./images/header-display/3.JPG" alt="">
-
-        <div class="about-achievement">
-          <a href="">
-            <h1>Mr. Aayush Jain Won Bronze Medal at National Shooting Championship</h1>
-          </a>
-          <h5>October 9, 2022</h5>
-          <div class="achievement-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatum maxime illum illo
-            culpa nulla dicta minus, facere ipsam at qui voluptate voluptates quam a commodi, mollitia
-            necessitatibus molestias earum?
-            Aut atque aliquid accusantium ab. Beatae rem deleniti, fugit numquam ex, reprehenderit pariatur
-            eaque quasi porro similique maxime repudiandae id provident iure natus minima ipsam laborum
-            aperiam
-            voluptate temporibus ipsum!
-            Sequi, beatae, impedit labore exercitationem saepe tenetur sint aliquam recusandae assumenda
-            obcaecati quidem reprehenderit ducimus! Quis aliquam culpa, quia deserunt perspiciatis qui alias
-            dignissimos, et nobis ullam dolore repellendus facere!
-
-          </div>
-        </div>
-      </div>
-
-      <div class="achievement-card">
-        <img src="./images/header-display/3.JPG" alt="">
-
-        <div class="about-achievement">
-          <a href="">
-            <h1>Mr. Aayush Jain Won Bronze Medal at National Shooting Championship</h1>
-          </a>
-          <h5>October 9, 2022</h5>
-          <div class="achievement-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatum maxime illum illo
-            culpa nulla dicta minus, facere ipsam at qui voluptate voluptates quam a commodi, mollitia
-            necessitatibus molestias earum?
-            Aut atque aliquid accusantium ab. Beatae rem deleniti, fugit numquam ex, reprehenderit pariatur
-            eaque quasi porro similique maxime repudiandae id provident iure natus minima ipsam laborum
-            aperiam
-            voluptate temporibus ipsum!
-            Sequi, beatae, impedit labore exercitationem saepe tenetur sint aliquam recusandae assumenda
-            obcaecati quidem reprehenderit ducimus! Quis aliquam culpa, quia deserunt perspiciatis qui alias
-            dignissimos, et nobis ullam dolore repellendus facere!
-
-          </div>
-        </div>
-      </div>
-      <div class="achievement-card">
-        <img src="./images/header-display/3.JPG" alt="">
-
-        <div class="about-achievement">
-          <a href="">
-            <h1>Mr. Aayush Jain Won Bronze Medal at National Shooting Championship</h1>
-          </a>
-          <h5>October 9, 2022</h5>
-          <p class="achievement-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatum maxime illum illo
-            culpa nulla dicta minus, facere ipsam at qui voluptate voluptates quam a commodi, mollitia
-            necessitatibus molestias earum?
-            Aut atque aliquid accusantium ab. Beatae rem deleniti, fugit numquam ex, reprehenderit pariatur
-            eaque quasi porro similique maxime repudiandae id provident iure natus minima ipsam laborum
-            aperiam
-            voluptate temporibus ipsum!
-            Sequi, beatae, impedit labore exercitationem saepe tenetur sint aliquam recusandae assumenda
-            obcaecati quidem reprehenderit ducimus! Quis aliquam culpa, quia deserunt perspiciatis qui alias
-            dignissimos, et nobis ullam dolore repellendus facere!
-
-          </p>
-        </div>
-      </div>
-
-
-    </div>
-    <div class="achievement-button-container">
-      <button class="pure-material-button-contained" onclick="sound()">view more</button>
-    </div>
-
+    
   </section>
 
   <section class="section-9" id="loaction-inquiry">
@@ -2004,26 +2032,26 @@
       <legend>
         <h1>INQUIRY</h1>
       </legend>
-      <form>
+      <form  name="inq-form"  id="inq-frm" onsubmit="return formSubmit(event)" method="post">
         <div class="form-grid">
           <span class="group">
-            <select id="category" name="category" required>
-              <option>Styding At</option>
+            <select required id="category" name="category" >
+              <option value="Styding At select">Styding At</option>
               <option value="college">College</option>
               <option value="school">School</option>
             </select>
           </span>
 
-          <input type="text" id="name-inp-tag" name="name" placeholder="Enter Full Name" required />
-          <input type="tel" id="contact" name="contact" placeholder="Mobile Number" required>
-          <input type="email" name="email" placeholder="Email" max="" required />
-          <input type="date" id="dob" name="dob" placeholder="Date of Birth" required>
-          <input type="number" name="age" placeholder="Age" required />
-          <textarea autocomplete="address-line1" id="address" name="address" placeholder="Address" required></textarea>
+          <input required type="text" id="name-inp-tag" name="fullname" placeholder="Enter Full Name"  />
+          <input required type="tel" id="contact" name="contact" placeholder="Mobile Number" >
+          <input required type="email" name="email" placeholder="Email" max=""  />
+          <input required type="text" id="dob" name="dob" placeholder="Date of Birth" onfocus="(this.type='date')" onblur="(this.type='text')" >
+          <input required type="number" name="age" placeholder="Age"  />
+          <textarea required autocomplete="address-line1" id="address" name="address" placeholder="Address" ></textarea>
 
           <span class="group">
-            <select id="gender" name="gender" required>
-              <option>Gender</option>
+            <select required id="gender" name="gender" >
+              <option value="gender select">Gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
               <option value="other">Other</option>
@@ -2034,26 +2062,39 @@
           <div id="vary">
             <div id="college" class="gap">
               <label style="font-size: 2rem;" for="gender">College Detials</label>
-              <input type="text" name="college-roll-number" placeholder="Enter Your Roll Number" />
-              <input type="text" name="college-roll-number" placeholder="Department" />
-              <input type="text" name="college-roll-number-2" placeholder="Batch Year">
-              <input type="text" name="college-roll-number" placeholder="Section" />
+              <input required type="text" id="college-roll-number" name="college-roll-number" placeholder="Enter Your Roll Number" />
+              <input required type="text" placeholder="Department" />
+              <input required type="text" placeholder="Batch Year">
 
             </div>
             <div id="school" class="gap">
               <label style="font-size: 2rem;" for="gender">School Detials</label>
-              <input type="text" name="school-name" placeholder="Enter your school name" />
-              <input type="text" name="school-id" placeholder="Enter your school id">
-              <input type="text" name="school-name" placeholder="Enter your school name" />
-              <input type="text" name="school-id" placeholder="Enter your school id">
-              <input type="text" name="school-name" placeholder="Enter your school name" />
-              <input type="text" name="school-id" placeholder="Enter your school id">
+              <input required type="text" name="school-name" placeholder="Enter your school name" />
+              <input required type="text" name="school-class" placeholder="Enter your Class">
+              <textarea name="school-address" placeholder="Enter your school Address" ></textarea>
             </div>
           </div>
 
 
+          <div class="gap">
+            <label style="font-size: 2rem;" for="gender">Parent/Guardian Info</label>
+            <select required name="par-or-gaurd" id="par-or-gaurd" >
+              <option>Select Parent/Guardian</option>
+              <option value="Parent">Parent</option>
+              <option value="Guardian">Guardian</option>
+            </select>
+            <div id="vary2" >
+              <div id="for-parents" class="gap">
+                <input required type="text" id="PName" placeholder="Enter your  Father/Mother Name" />
+                <input required type="tel" id="PMobile" placeholder="Enter your  Father/Mother Mobile Number" />
+              </div>
+              <div id="for-gaurdian" class="gap">
+                <input required type="text" id="GName" placeholder="Enter your  Guardian Name" />
+                <input required type="tel" id="GMobile" placeholder="Enter your  Guardian Mobile Number" />
+              </div>
+            </div>
+          </div>
 
-          <textarea id="parent-info" name="parent-info" placeholder="Parent/Guardian Information"></textarea>
 
         </div>
 
@@ -2062,11 +2103,11 @@
 
 
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">Table Tennis</label>
           </div>
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">BADMINTON</label>
           </div>
           <div class="indvidual-sports">
@@ -2075,20 +2116,20 @@
           </div>
 
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">CRICKET</label>
           </div>
 
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">basket ball</label>
           </div>
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">football</label>
           </div>
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">VOLLEYBALL</label>
           </div>
           <div class="indvidual-sports">
@@ -2096,7 +2137,7 @@
             <label for="table-tennis-check-box">Hockey</label>
           </div>
           <div class="indvidual-sports">
-            <input type="checkbox" name="table-tennis" value="table-tennis">
+            <input  type="checkbox" name="table-tennis" value="table-tennis">
             <label for="table-tennis-check-box">Tennis</label>
           </div>
 
@@ -2110,65 +2151,213 @@
 
 
       </form>
-
     </fieldset>
   </section>
 
+
+    <!-- <div class="social-container">
+      <div class="social facebook">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="social twitter">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="social google"><i class="fab fa-google"></i></div>
+      <div class="social linkedin">
+        <i class="fab fa-linkedin-in"></i> -->
   </main>
-  <footer id="location-footer">
-
-
-    <div class="footer-base-container">
-      <div class="footer-content">
-        <div class="footer-left">
-          <div class="footer-left-inner-holder">
-            <div class="footer-clg-logo">
-              <img width="65%" height="60%" src="../images/logos/bhc-logo.png" alt="">
+    <footer id="location-footer">
+      <div class="footer-container">
+          
+        <div class="footer-1-container">
+        <div class="footer-contact-heading-container">
+          <!-- <img src="./images/logos/bhc-logo.png" alt=""> -->
+          <div class="corn"><h1>CONTACT US</h1></div>
+         
+                </div>
+        <div class="footer-contact-details-container">
+          <div class="footer-div-align">
+            <div class="footer-contact-detail-1">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <h3>ADDRESS</h3>
+              
+              <p id="ppp">BISHOP HEBER COLLEGE</p>
+              <p id="ppp2">Tiruchirappalli - 620 017.</p>
+            
             </div>
-            <div class="footer-social-icons">
-              <div class="social facebook">
-                <i class="fab fa-facebook-f"></i>
-              </div>
-              <div class="social facebook">
-                <i class="fab fa-facebook-f"></i>
-              </div>
-              <div class="social facebook">
-                <i class="fab fa-facebook-f"></i>
-              </div>
-            </div>
-          </div>
-          <div class="footer-adr-qr">
-            <div class="footer-clg-address">
-              <h3 style="font-size:2rem; color: #FF2600; ">Bishop Heber College</h3>
-              <p> Post Box No. 615</p>
-              <p>Tiruchirappalli - 620 017</p>
-              <p>Tamil Nadu, South India</p>
-              <p> <strong>Phone:</strong> 0431 - 2770136/2770158 </p>
-              <p><strong>Fax:</strong> 0431 - 2770293 </p>
-              <p><strong>Email:</strong>principal@bhc.edu.in </p>
-            </div>
-            <div class="footer-clg-qr">
-              <img width="100%" src="http://bhc.edu.in/img/bhcrqcodedark.png">
+            <div class="footer-contact-detail-2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <h3>PHONE NUMBER</h3>
+              <p>+91 94435 66300</p>
             </div>
           </div>
+
+          <div class="footer-div-align">
+            <div class="footer-contact-detail-3">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <h3>EMAIL</h3>
+              <p>palrajbhc@gmail.com</p>
+            </div>
+            <div class="footer-contact-detail-4">
+              <i class="fa fa-fax" ></i>
+              <h3>FAX NUMBER</h3>
+              <p>0431-27702</p>
+            </div>
+          </div>
+          <div class="footer-div-align-2">
+            <div class="footer-contact-detail-5">
+              <img src="http://bhc.edu.in/img/bhcrqcodedark.png" >
+              <i class="fa fa-qrcode" aria-hidden="true"></i>
+
+              <h3>QR CODE</h3>
+              <p>click me !</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-social-media-container">
+          <ul>
+            <li><i id="footer-icon-1" class="fa fa-facebook"></i></li>
+            <li><i id="footer-icon-2" class="fa-brands fa-twitter" ></i></li>
+            <li><i id="footer-icon-3" class="fab fa-instagram" ></i></li>
+            <li><i id="footer-icon-4" class="fab fa-youtube"></i></li>
+          </ul>
+        </div>
 
         </div>
-        <div class="footer-right">
+        <div class="footer-2-container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9199696536157!2d78.67368051421492!3d10.817436461394736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf59e39806fd1%3A0xb8ef0a45a8e0212d!2sBishop+Heber+College!5e0!3m2!1sen!2sin!4v1460719645441"
-            frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9199696536157!2d78.67368051421492!3d10.817436461394736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf59e39806fd1%3A0xb8ef0a45a8e0212d!2sBishop+Heber+College!5e0!3m2!1sen!2sin!4v1460719645441"
+          frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+        </div>
+         
+          <div class="footer-3-container">
+           
+            <div class="Copyright-left">
+
+              <p>&copy; Copyright <strong ><span>Bishop Heber College</span></strong> . All Rights Reserved</p>
+            </div>
+            <div class="Copyright-right">
+              <p>Developed By <strong>Mohamed Aslam & Logeshwaran K</strong><img src="./images/icons/high-five.png" alt=""></p>
+            </div>
+            
+          </div>
+        
+      </div>
+
+
+
+    <!-- <div class="footer-container">
+      <div class="footer-contact-heading"><h2>CONTACT US</h2></div>
+      <div class="footer-1-and-footer-2">
+      <div class="footer-1">
+
+       
+        <div class="footer-contact-and-logo-container">
+        <div class="footer-logo">
+          <div class="footer-logo-image">
+            <img src="./images/logos/bhc-logo.png" alt="">
+          </div>
+         
+          <div class="social-media-footer">
+            <div class="social-media-heading-footer"><h3>SOCIAL MEDIA</h3></div>
+            <div class="social-media-icon-footer">
+            <i class="social-footer-1 fab fa-facebook-f"></i>
+            <i class="social-footer-2 fab fa-twitter"></i>
+            <i class="social-footer-3 fab fa-linkedin-in"></i>
+            <i class="social-footer-4 fab fa-google"></i>
+          </div>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h3 style="font-size:2rem; color: #FF2600; ">Bishop Heber College</h3>
+          <p> Post Box No. 615</p>
+          <p>Tiruchirappalli - 620 017</p>
+          <p>Tamil Nadu, South India</p>
+          <p> <strong>Phone:</strong> 0431 - 2770136/2770158 </p>
+          <p><strong>Fax:</strong> 0431 - 2770293 </p>
+          <p><strong>Email:</strong>principal@bhc.edu.in </p>
         </div>
       </div>
-      <hr style="border-top: 2px solid #8c8b8b;">
-      <div class="footer-chd-2">
-        <p>&copy; Copyright <strong><span>Bishop Heber College</span></strong>. All Rights Reserved</p>
-        <div class="footer-credits">Developed By <strong>Logeshwaran K & Aslam Crypto</strong></div>
+      </div>
+      <div  class="footer-2">
+        <div class="footer-map-and-qr-container">
+          <div class="footer-qr"><img src="http://bhc.edu.in/img/bhcrqcodedark.png" ></div>
+        <div class="footer-map"> 
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9199696536157!2d78.67368051421492!3d10.817436461394736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf59e39806fd1%3A0xb8ef0a45a8e0212d!2sBishop+Heber+College!5e0!3m2!1sen!2sin!4v1460719645441"
+          frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+
+
+
+
+        </div>
+        
+      </div>
       </div>
     </div>
+    <hr style="border-top: 2px solid #8c8b8b;">
+          <div class="footer-chd-2">
+            <p>&copy; Copyright <strong ><span>Bishop Heber College</span></strong>. All Rights Reserved</p>
+            <div class="footer-credits">Developed By <strong>Logeshwaran K & Aslam Crypto</strong></div>
+          </div>
+    </div>
+     -->
 
+    </footer>
+    <!-- <footer id="location-footer">
+      
 
-
-  </footer>
-</body>
-
+        <div class="footer-base-container">
+          <div class="footer-content">
+            <div class="footer-left">
+              <div class="footer-left-inner-holder">
+                <div class="footer-clg-logo">
+                  <img width="65%" height="60%" src="../images/logos/bhc-logo.png" alt="">
+                </div>
+                <div class="footer-social-icons">
+                  <div class="social facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                  <div class="social facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                  <div class="social facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-adr-qr">
+                <div class="footer-clg-address">
+                  <h3 style="font-size:2rem; color: #FF2600; ">Bishop Heber College</h3>
+                  <p> Post Box No. 615</p>
+                  <p>Tiruchirappalli - 620 017</p>
+                  <p>Tamil Nadu, South India</p>
+                  <p> <strong>Phone:</strong> 0431 - 2770136/2770158 </p>
+                  <p><strong>Fax:</strong> 0431 - 2770293 </p>
+                  <p><strong>Email:</strong>principal@bhc.edu.in </p>
+                </div>
+                <div class="footer-clg-qr">
+                  <img width="100%"  src="http://bhc.edu.in/img/bhcrqcodedark.png" >
+                </div>
+              </div>
+    
+            </div>
+            <div class="footer-right">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.9199696536157!2d78.67368051421492!3d10.817436461394736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf59e39806fd1%3A0xb8ef0a45a8e0212d!2sBishop+Heber+College!5e0!3m2!1sen!2sin!4v1460719645441"
+                frameborder="0" style="border:0; width: 100%; height: 100%;" allowfullscreen></iframe>
+            </div>
+          </div>
+          <hr style="border-top: 2px solid #8c8b8b;">
+          <div class="footer-chd-2">
+            <p>&copy; Copyright <strong ><span>Bishop Heber College</span></strong>. All Rights Reserved</p>
+            <div class="footer-credits">Developed By <strong>Logeshwaran K & Aslam Crypto</strong></div>
+          </div>
+        </div>
+    
+    
+    
+    </footer> -->
+  </body>
+ 
 </html>

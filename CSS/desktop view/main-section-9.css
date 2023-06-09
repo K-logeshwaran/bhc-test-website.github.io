@@ -1,3 +1,7 @@
+.section-9{
+ padding:3rem 0rem;
+}
+
 .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -60,11 +64,14 @@
     font-size: 16px;
     width: 90%;
     margin: auto;
+    border-radius:0.5rem;
+    transition-duration:1s;
     
 }
 
 .btn-container input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #c60909;
+    
 }
 
 .group {
@@ -106,7 +113,7 @@ legend h1 {
     font-size: 3rem;
 }
 legend {
-    color: gray;
+    color: rgb(218, 10, 10);
     margin-left: 2rem;
     margin-bottom: 1rem;
     padding: 5px 2rem;
@@ -145,3 +152,20 @@ legend {
     row-gap: 2rem;
 
 }
+textarea{
+    resize: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -35,7 +35,7 @@
 
 
     .cross-bar-1 {
-        background-color: rgb(255, 98, 0);
+        background-color: red;
         transform: translate(0, 2px) rotate(-45deg);
     }
 
@@ -44,7 +44,7 @@
     }
 
     .cross-bar-3 {
-        background-color: rgb(255, 98, 0);
+        background-color: red;
         transform: translate(0, -2px) rotate(45deg);
     }
     .nav-bar-ul{
@@ -122,7 +122,7 @@
       }
       
       .nav-menu-bar-button .center .nav-menu-bar-button-a button:hover{
-        background-color: rgb(255, 98, 0);
+        background-color: red;
         color: white;
     }
     .header-container ul 
